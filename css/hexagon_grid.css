@@ -1,0 +1,31 @@
+.hexagons{
+  position: relative;
+}
+
+.hexagon-row div:nth-child(2) {
+  top: -68px;
+  left: -42px;
+}
+
+.hexagon-solo-row div:first-child{
+  top: -68px;
+  left: 116px;
+}
+
+.hexagon-row div:nth-child(3) {
+  left: -82px;
+}
+
+/*.tile {
+  width: 155px;
+  height: 135px;
+}*/
+
+#anit{
+  width: 100%;
+}
+
+.heximage{
+  position: relative;
+  display: inline-block;
+}

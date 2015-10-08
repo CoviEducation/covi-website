@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>The People's Science</title>
+
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/hexagon_grid.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container homescreen">
+      <!-- Hexagon & Preview Text -->
+      <div class="row">
+        <!-- Left Column (Logo, Hexagon Grid) -->
+        <div class="col-sm-6" id="hexagon-column">
+          <div class="tps-logo" data-target="content home">
+            <a href="#home">
+              <img src="assets/tps_logo.png"/>
+            </a>
+          </div>
+
+          <div id="anit">
+          </div>
+
+        <!-- Right Column (Content) -->
+        <div class="col-sm-6" id="content_column">
+          <!-- content goes here -->
+        </div>
+      </div>
+      <!-- End of Container -->
+    </div>
+
+    <!-- Tabloids -->
+    <div id="tabloid_1" class="container tabloid hidden">
+      <h1>HOWDYDOODY</h1>
+    </div>
+
+    <div id="tabloid_2" class="container tabloid hidden">
+      <h1>HOWDYDOODY</h1>
+    </div>
+
+    <!-- Bottom Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-bottom">
+      <div class="container">
+        <!-- Navbar Header -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-content" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Navbar Content -->
+        <div class="collapse navbar-collapse" id="navbar-content">
+          <!-- Navbar Left -->
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="#about" data-target="content about">About</a></li>
+            <li><a href="#team" data-target="content team">Team</a></li>
+            <li><a href="#tilt" data-target="content tilt">TiLT</a></li>
+            <li><a href="#archive" data-target="content archive">The Public Archive</a></li>
+            <li><a href="#scihive" data-target="content scihive">SciHive</a></li>
+            <li><a href="#shareyourscience" data-target="content shareyourscience">#ShareYourScience</a></li>
+            <li><a href="#beeclub" data-target="content beeclub">BeeClub</a></li>
+          </ul>
+
+          <!-- Navbar Right -->
+          <form class="navbar-form navbar-right">
+            <button type="button" class="btn btn-success">Join the Effort!</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- jQuery -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+
+    <!-- Bootstrap -->
+    <script src='node_modules/bootstrap/dist/js/bootstrap.min.js'></script>
+
+    <!-- Navigation -->
+    <script src='js/navigation.js'></script>
+
+    <!-- Hexagons -->
+    <script src='js/hexagon.js'></script>
+  </body>
+</html>

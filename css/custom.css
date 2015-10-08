@@ -1,0 +1,226 @@
+html, body, .container, .row {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  color: white;
+  font-size: 12px;
+  padding-bottom: 55px;
+  background-color: white;
+}
+
+.col-sm-6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.tps-logo img{
+  /*margin-top: 20px;
+  margin-bottom: 20px;*/
+}
+
+.navbar {
+  background-color: #4a4a4a;
+}
+
+/*#hexagon-column {
+  padding: 15px 5px 10px 5px;
+}*/
+/* ------- */
+/* Content */
+/* ------- */
+
+#content_column {
+  padding: 10px;
+}
+
+.col-sm-12 .content{
+  padding: 0px 15px 10px 15px;
+  margin: 0px;
+}
+
+.content-row {
+  margin: 12px 0px;
+}
+
+.content-column {
+  margin: 0px;
+  padding: 0px
+}
+
+
+/* ------------------- */
+/* Content Typesetting */
+/* ------------------- */
+.content-heading {
+  font-size: 2.75em;
+  font-weight: bolder;
+  margin: 0px 15px 10px 15px;
+}
+
+/* --------------------- */
+/* Content Customization */
+/* --------------------- */
+div[class^="content home"]{
+  background-color: #c2c0be;
+}
+
+div[class^="content about"]{
+  background-color: #898989;
+}
+
+div[class^="content team"]{
+  background-color: #606060;
+}
+
+div[class^="content tilt"]{
+  background-color: #d18b6b;
+}
+
+div[class^="content archive"]{
+  background-color: #faa22c;
+}
+
+div[class^="content scihive"]{
+  background-color: #bdca3a;
+}
+
+div[class^="content shareyourscience"]{
+  background-color: #a9c2c0;
+}
+
+div[class^="content beeclub"]{
+  background-color: #ebc477;
+}
+
+/* --------------------------- */
+/* Social Media Button Styling */
+/* --------------------------- */
+.social {
+  text-align: right;
+  margin: 10px 10px 0px 10px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: snow;
+  text-align: center;
+  overflow: hidden;
+  display: inline-block;
+  border: 1px solid white;
+}
+
+.circle .twitter-logo {
+  position: relative;
+  height: 25px;
+  width: 25px;
+  top: 2px;
+}
+
+.circle .fb-logo {
+  position: relative;
+  height: 15px;
+  width: 15px;
+  top: 5px;
+}
+
+.circle .glyphicon {
+  font-size: 16px;
+  top: 7px;
+}
+
+.nudge-usd{
+  top: 15px;
+}
+
+/* -------------------- */
+/* Circle customization */
+/* -------------------- */
+.circle:hover{
+  background-color: gray;
+}
+
+/* -------------- */
+/* Pretty Buttons */
+/* -------------- */
+.prettybutton{
+  border: 1px solid white;
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 7px;
+  color: white;
+  font-variant: small-caps;
+}
+
+.prettybutton:hover{
+  background-color: black;
+}
+
+/* ----------- */
+/* Tagline Bar */
+/* ----------- */
+.tagline{
+  width: 100%;
+  background-color: white;
+  color: dimgray;
+  padding: 5px 10px;
+}
+
+/* --------------------- */
+/* Tabloid customization */
+/* --------------------- */
+.tabloid {
+  color: black;
+  height: 110%;
+  margin-top: 20px;
+}
+
+#tabloid_1{
+  background-color: coral;
+}
+
+#tabloid_2{
+  background-color: teal;
+}
+
+
+/* --------- */
+/* Team Page */
+/* --------- */
+.profile-picture-column {
+  text-align: center;s
+}
+
+.profile_picture_frame{
+  border-radius: 50%;
+  border: 1px solid white;
+  overflow: hidden;
+  width: 165px;
+  height: 165px;
+  display: inline-block;
+}
+
+.profile_picture {
+  height: 120%;
+  width: 100%;
+  position: relative;
+}
+
+.team .name{
+  font-size: 1.35em;
+  font-weight: bolder;
+  margin-bottom: 0.05em;
+}
+
+.team .role{
+  font-size: 1.15em;
+  margin-bottom: 0.35em;
+}
+
+.team .bio{
+  font-size: 1em;
+}
