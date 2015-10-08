@@ -16,18 +16,15 @@ body {
   padding: 0px;
 }
 
-.tps-logo img{
-  /*margin-top: 20px;
-  margin-bottom: 20px;*/
+.tps-logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .navbar {
   background-color: #4a4a4a;
 }
 
-/*#hexagon-column {
-  padding: 15px 5px 10px 5px;
-}*/
 /* ------- */
 /* Content */
 /* ------- */
