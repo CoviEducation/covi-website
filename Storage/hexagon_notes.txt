@@ -1,0 +1,19 @@
+// Hexagon Size Notes
+
+
+
+// Hexagon Position Notes
+
+    2
+1 / 5 \ 3
+4 / 7 \ 6
+
+
+1 - about
+2 - tilt
+3 - scihive
+4 - shareyourscience
+5 - archive
+6 - team
+7 - beeclub
+

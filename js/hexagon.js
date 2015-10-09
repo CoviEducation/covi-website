@@ -2,34 +2,51 @@ $(document).ready(function() {
   // Based on parent div width calculate
   // resize and move hexagons accordingly
 
-  min_width = 3;
-  widthToHeightRatio = 0.8660254037; // h = wthr * w
-
+  hexagonWidthToHeightRatio = 0.8660254037;
+  hexDiv = $("#hexagons");
 
   transformHexagons = function(divWidth){
-    // Transform divwidth to hexwidth
-    // width of hexwidth = 4a
-    // divwidth = 10a
-    // hexwdith = 4a
-    // hexwidth = .4 divwidth
-    // Subtract margins?
-
-    // should this number scale?
-    mywidth = divwidth - 160;
+    mywidth = .8*divWidth;
 
     hexWidth = 0.4 * mywidth;
-    hexHeight = hexWidth * widthToHeightRatio;
+    hexHeight = hexWidth * hexagonWidthToHeightRatio;
 
+    // Resize
     // console.log( " DIV WIDTH (" + divWidth + ") | HEXAGON WIDTH (" + hexWidth + ") | HEXAGON HEIGHT (" + hexHeight + ")")
-    $(".hexagon ")
-      .width(hexWidth)
-      .height(hexHeight);
+    $(".hexagon ").width(hexWidth).height(hexHeight);
+
+    // Reposition
+    // Logo's Position
+    topRoot = $("#tps-logo").position().top + $("#tps-logo img").height() + 25 + .05*hexHeight;
+    leftRoot = $("#tps-logo").position().left + $("#tps-logo img").width() + 25 + .05*hexWidth;
+
+    // Horizontal
+    middleColumnLeft = leftRoot;
+    firstColumnLeft = middleColumnLeft - 3*hexWidth/4 - 1;
+    lastColumnLeft = middleColumnLeft + 3*hexWidth/4 + 1;
+
+    // Vertical
+    firstRowSides   = topRoot;
+    firstRowMiddle  = firstRowSides - hexHeight/2;
+    secondRowSides  = firstRowSides + hexHeight;
+    secondRowMiddle = firstRowMiddle + hexHeight;
+    thirdRowMiddle  = secondRowMiddle + hexHeight;
+
+    $("#hex1").css({top: firstRowSides,   left: firstColumnLeft});
+    $("#hex2").css({top: firstRowMiddle,  left: middleColumnLeft});
+    $("#hex3").css({top: firstRowSides,   left: lastColumnLeft});
+    $("#hex4").css({top: secondRowSides,  left: firstColumnLeft});
+    $("#hex5").css({top: secondRowMiddle, left: middleColumnLeft});
+    $("#hex6").css({top: secondRowSides,  left: lastColumnLeft});
+    $("#hex7").css({top: thirdRowMiddle,  left: middleColumnLeft});
+
   }
 
   // Listen to window resizing
   $(window).resize(function(){
-    divwidth = $(".hexagons").width();
-    transformHexagons(divwidth);
+    transformHexagons($("#hexagons").width());
   });
+
+  transformHexagons($("#hexagons").width());
 });
 
