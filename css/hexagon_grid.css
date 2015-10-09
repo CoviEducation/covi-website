@@ -1,5 +1,8 @@
 .hexagons{
   position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
 }
 
 .hexagon-row div:nth-child(2) {
@@ -19,10 +22,6 @@
 .tile {
   width: 155px;
   height: 135px;
-}
-
-#anit{
-  width: 100%;
 }
 
 .heximage{
