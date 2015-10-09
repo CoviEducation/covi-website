@@ -5,6 +5,7 @@ $(document).ready(function() {
   min_width = 3;
   widthToHeightRatio = 0.8660254037; // h = wthr * w
 
+
   transformHexagons = function(divWidth){
     // Transform divwidth to hexwidth
     // width of hexwidth = 4a
@@ -19,12 +20,8 @@ $(document).ready(function() {
     hexWidth = 0.4 * mywidth;
     hexHeight = hexWidth * widthToHeightRatio;
 
-    console.log( " DIV WIDTH (" + divWidth + ") | HEXAGON WIDTH (" + hexWidth + ") | HEXAGON HEIGHT (" + hexHeight + ")")
-    // $(".heximage")
-    //   .width(hexWidth)
-    //   .height(hexHeight);
-
-    $(".tile ")
+    // console.log( " DIV WIDTH (" + divWidth + ") | HEXAGON WIDTH (" + hexWidth + ") | HEXAGON HEIGHT (" + hexHeight + ")")
+    $(".hexagon ")
       .width(hexWidth)
       .height(hexHeight);
   }
