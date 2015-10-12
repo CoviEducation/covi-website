@@ -3,6 +3,7 @@
   height: 100%;
   position: relative;
 }
+
 .hexagon{
   position: absolute;
   display: inline-block;
@@ -17,20 +18,20 @@
 #hex1{ background-image: url('../assets/tiles/about_base.png'); }
 #hex1:hover{ background-image: url('../assets/tiles/about_hover.png'); }
 
-#hex2{ background-image: url('../assets/tiles/archive_base.png'); }
-#hex2:hover{ background-image: url('../assets/tiles/archive_hover.png'); }
+#hex2{ background-image: url('../assets/tiles/tilt_base.png'); }
+#hex2:hover{ background-image: url('../assets/tiles/tilt_hover.png'); }
 
-#hex3{ background-image: url('../assets/tiles/beeclub_base.png'); }
-#hex3:hover{ background-image: url('../assets/tiles/beeclub_hover.png'); }
+#hex3{ background-image: url('../assets/tiles/scihive_base.png'); }
+#hex3:hover{ background-image: url('../assets/tiles/scihive_hover.png'); }
 
-#hex4{ background-image: url('../assets/tiles/scihive_base.png'); }
-#hex4:hover{ background-image: url('../assets/tiles/scihive_hover.png'); }
+#hex4{ background-image: url('../assets/tiles/shareyourscience_base.png'); }
+#hex4:hover{ background-image: url('../assets/tiles/shareyourscience_hover.png'); }
 
-#hex5{ background-image: url('../assets/tiles/shareyourscience_base.png'); }
-#hex5:hover{ background-image: url('../assets/tiles/shareyourscience_hover.png'); }
+#hex5{ background-image: url('../assets/tiles/archive_base.png'); }
+#hex5:hover{ background-image: url('../assets/tiles/archive_hover.png'); }
 
 #hex6{ background-image: url('../assets/tiles/team_base.png'); }
 #hex6:hover{ background-image: url('../assets/tiles/team_hover.png'); }
 
-#hex7{ background-image: url('../assets/tiles/tilt_base.png'); }
-#hex7:hover{ background-image: url('../assets/tiles/tilt_hover.png'); }
+#hex7{ background-image: url('../assets/tiles/beeclub_base.png'); }
+#hex7:hover{ background-image: url('../assets/tiles/beeclub_hover.png'); }

@@ -8,8 +8,11 @@ html, body, .container, .row {
 body {
   color: white;
   font-size: 12px;
-  padding-bottom: 55px;
   background-color: white;
+}
+
+.homescreen {
+  padding-bottom: 65px;
 }
 
 .col-sm-6 {
@@ -27,12 +30,22 @@ body {
   background-color: #4a4a4a;
 }
 
+.join-button {
+  z-index: 1;
+  background-color: green;
+  color: white;
+  margin: 5px 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
 /* ------- */
 /* Content */
 /* ------- */
 
 #content_column {
   padding: 10px;
+  height: 100%;
 }
 
 .col-sm-12 .content{
@@ -198,8 +211,8 @@ div[class^="content beeclub"]{
   border-radius: 50%;
   border: 1px solid white;
   overflow: hidden;
-  width: 165px;
-  height: 165px;
+  width: 135px;
+  height: 135px;
   display: inline-block;
 }
 
