@@ -11,24 +11,24 @@ $(document).ready(function() {
     change_page( this.attributes["data-target"].value.replace("content ",""));
   });
 
+  // Routing and Page Changing
+  function router(){
+    change_page( $(location).attr('href').match(/#(\w*)/) );
+  }
+
+  function isValidPage(target){
+    validPages = ['home', 'about', 'tilt', 'scihive', 'shareyourscience', 'archive', 'team', 'beeclub'];
+    return ( $.inArray(target,validPages) > -1 );
+  }
+
   function change_page(target){
-    if (!validPage(target)) { target = "home"; }
+    if (!isValidPage(target)) { target = "home"; }
     window.location.replace(window.location.origin + "/#" + target);
     $("#content_column").load("/html/contents/" + target + ".html");
   }
 
-  function router(){
-    var target = $(location).attr('href').match(/#(\w*)/);
-    change_page(target[1]);
-  }
-
-  function validPage(target){
-    validPages = ['home', 'about', 'tilt', 'scihive', 'shareyourscience', 'archive', 'team', 'beeclub'];
-    return ($.inArray(target,validPages) > -1);
-  }
-
   // Tabloid Reveal/Scrollto
-  $(".prettybutton").click(function(data){
+  $(".tabloid-button").click(function(data){
     console.log("Clicking a tabloid button")
     target = this.attributes["data-target"].value;
 
