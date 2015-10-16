@@ -4,29 +4,27 @@ $(document).ready(function() {
 
   // Click for Hexagons and Nav Links
   $("*[data-target~='content']").click(function(data){
-    // console.log("MENU NAV: " + this.attributes["data-target"].value);
-    change_page( this.attributes["data-target"].value.replace("content ","") );
+    change_page( this.attributes["data-target"].value.replace("content ",""));
   });
 
   $("img[class~='tile']").click(function(data){
-    //  console.log("HEX NAV: " + this.attributes["data-target"].value);
-    change_page( this.attributes["data-target"].value.replace("content ","") );
+    change_page( this.attributes["data-target"].value.replace("content ",""));
   });
 
   function change_page(target){
-    if (target){
-      window.location.replace(window.location.origin + "/#" + target);
-    }
+    if (!validPage(target)) { target = "home"; }
+    window.location.replace(window.location.origin + "/#" + target);
     $("#content_column").load("/html/contents/" + target + ".html");
   }
 
   function router(){
-    target = $(location).attr('href').match(/#(\w*)/)
-    if (target) {
-      change_page(target[1]);
-    } else {
-      change_page('home');
-    }
+    var target = $(location).attr('href').match(/#(\w*)/);
+    change_page(target[1]);
+  }
+
+  function validPage(target){
+    validPages = ['home', 'about', 'tilt', 'scihive', 'shareyourscience', 'archive', 'team', 'beeclub'];
+    return ($.inArray(target,validPages) > -1);
   }
 
   // Tabloid Reveal/Scrollto
