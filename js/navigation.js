@@ -1,29 +1,32 @@
 $(document).ready(function() {
   // Load
-  $("#content_column").load("/html/contents/home.html");
+  router();
 
   // Click for Hexagons and Nav Links
   $("*[data-target~='content']").click(function(data){
     // console.log("MENU NAV: " + this.attributes["data-target"].value);
-    change_page( this.attributes["data-target"].value );
+    change_page( this.attributes["data-target"].value.replace("content ","") );
   });
 
   $("img[class~='tile']").click(function(data){
     //  console.log("HEX NAV: " + this.attributes["data-target"].value);
-    change_page( this.attributes["data-target"].value );
+    change_page( this.attributes["data-target"].value.replace("content ","") );
   });
 
-  // Tile hover behavior
-  $(".heximage").hover( function(){
-      $(this).children().toggleClass('hidden');
-    }, function(){
-      $(this).children().toggleClass('hidden');
-    }
-  );
-
   function change_page(target){
-    raw_target = target.replace("content ", "");
-    $("#content_column").load("/html/contents/" + raw_target + ".html");
+    if (target){
+      window.location.replace(window.location.origin + "/#" + target);
+    }
+    $("#content_column").load("/html/contents/" + target + ".html");
+  }
+
+  function router(){
+    target = $(location).attr('href').match(/#(\w*)/)
+    if (target) {
+      change_page(target[1]);
+    } else {
+      change_page('home');
+    }
   }
 
   // Tabloid Reveal/Scrollto
