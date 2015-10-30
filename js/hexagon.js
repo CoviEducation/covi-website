@@ -42,11 +42,17 @@ $(document).ready(function() {
 
   }
 
+  resizePictureFrames = function(width){
+    $(".profile-picture-frame").height( width );
+  }
+
   // Listen to window resizing
   $(window).resize(function(){
     transformHexagons($("#hexagons").width());
+    resizePictureFrames($(".profile-picture-frame").width());
   });
 
   transformHexagons($("#hexagons").width());
+  resizePictureFrames($(".profile-picture-frame").width());
 });
 

@@ -22,8 +22,8 @@ body {
 }
 
 #tps-logo {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 0px;
+  padding: 20px;
 }
 
 .navbar {
@@ -97,7 +97,6 @@ div[class*="stripe"]{
   color: #ebc477;
   /*text-transform: uppercase;*/
 }
-
 
 /* ---------------- */
 /* Content Headings */
@@ -284,23 +283,31 @@ div[class^="content beeclub"]{
 /* --------- */
 /* Team Page */
 /* --------- */
-.profile-picture-column {
-  text-align: center;
+.profile-picture-row {
+  margin-bottom: 10px;
 }
 
-.profile_picture_frame{
-  border-radius: 50%;
-  border: 1px solid white;
-  overflow: hidden;
-  width: 135px;
-  height: 135px;
+.profile-picture-column {
+  text-align: center;
+  width: 30%;
   display: inline-block;
 }
 
-.profile_picture {
-  height: 120%;
+.profile-bio-column {
+  width: 70%;
+  display: inline-block;
+}
+
+.profile-picture-frame{
+  border-radius: 50%;
+  border: 1px solid white;
   width: 100%;
-  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.profile-picture {
+  width: 100%;
 }
 
 .team .name{
