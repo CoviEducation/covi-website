@@ -3,17 +3,29 @@ $(document).ready(function() {
   // resize and move hexagons accordingly
 
   hexagonWidthToHeightRatio = 0.8660254037;
-  hexDiv = $("#hexagons");
 
-  transformHexagons = function(divWidth){
-    mywidth = .8*divWidth;
+  transformHexagons = function(){
+    // console.log("\n");
+    if ($(window).width() > 600) {
+      // console.log("Wide view");
+      width = 0.5 * $(window).width();
+    } else {
+      // console.log("Narrow view");
+      width = $(window).width();
+    }
 
-    hexWidth = 0.4 * mywidth;
+    // Resize hex and content columns
+    $("#hexagon-column").width(width).height($(window).height());
+    $("#content-column").width(width);
+    // console.log("Window - Width(" + $(window).width() + ") - Height(" + $(window).height() + ")");
+    // console.log("HexagonColumn (" + $("#hexagon-column").width() + ") - Content Column(" + $("#content-column").width() + ")" + "");
+
+    // Resize Hexagons
+    hexSectionWidth = width * 0.9;
+    $("#hexagons").width(hexSectionWidth);
+    hexWidth = 0.4 * hexSectionWidth;
     hexHeight = hexWidth * hexagonWidthToHeightRatio;
-
-    // Resize
-    // console.log( " DIV WIDTH (" + divWidth + ") | HEXAGON WIDTH (" + hexWidth + ") | HEXAGON HEIGHT (" + hexHeight + ")")
-    $(".hexagon ").width(hexWidth).height(hexHeight);
+    $(".hexagon").width(hexWidth).height(hexHeight);
 
     // Reposition
     // Logo's Position
@@ -39,7 +51,6 @@ $(document).ready(function() {
     $("#hex5").css({top: secondRowMiddle, left: middleColumnLeft});
     $("#hex6").css({top: secondRowSides,  left: lastColumnLeft});
     $("#hex7").css({top: thirdRowMiddle,  left: middleColumnLeft});
-
   }
 
   resizePictureFrames = function(width){
@@ -48,11 +59,11 @@ $(document).ready(function() {
 
   // Listen to window resizing
   $(window).resize(function(){
-    transformHexagons($("#hexagons").width());
+    transformHexagons();
     resizePictureFrames($(".profile-picture-frame").width());
   });
 
-  transformHexagons($("#hexagons").width());
+  transformHexagons();
   resizePictureFrames($(".profile-picture-frame").width());
 });
 
