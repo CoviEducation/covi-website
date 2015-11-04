@@ -23,8 +23,8 @@ $(document).ready(function() {
 
   function change_page(target){
     if (!isValidPage(target)) { target = "home"; }
-    window.location.replace(window.location.origin + "/#" + target);
-    $("#content_column").load("/html/contents/" + target + ".html");
+    window.location.replace(window.location.origin + "/tps/#" + target);
+    $("#content_column").load("/tps/html/contents/" + target + ".html");
   }
 
   // Tabloid Reveal/Scrollto
