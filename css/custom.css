@@ -31,9 +31,9 @@ body {
 #hexagon-column {
   margin: 0px;
   padding: 0px;
-  border: 1px solid black;
   float: left;
   display: inline-block;
+  /* border: 1px solid black; */
 }
 
 #tabloid-container {
@@ -48,9 +48,9 @@ body {
 
 #content-column {
   padding: 10px;
-  border: 1px solid blue;
   float: left;
   display: inline-block;
+  /* border: 1px solid blue; */
 }
 
 .content {
