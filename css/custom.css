@@ -19,6 +19,8 @@ body {
 #anit-navbar {
   background-color: #4a4a4a;
   padding: 10px;
+  margin: 0px;
+  float: left;
 }
 
 #anit-navbar > span {
@@ -27,8 +29,17 @@ body {
 }
 
 #hexagon-column {
+  margin: 0px;
+  padding: 0px;
   border: 1px solid black;
+  float: left;
   display: inline-block;
+}
+
+#tabloid-container {
+  margin: 0px;
+  padding: 0px;
+  float: left;
 }
 
 /* ------- */
@@ -38,15 +49,13 @@ body {
 #content-column {
   padding: 10px;
   border: 1px solid blue;
+  float: left;
   display: inline-block;
 }
 
 .content {
   position: relative;
-}
-.col-sm-12 .content{
-  padding: 0px 15px 10px 15px;
-  margin: 0px;
+  width: 100%;
 }
 
 .content-row {
@@ -178,7 +187,8 @@ div[class^="content beeclub"]{
 /* --------------------------- */
 .social {
   text-align: right;
-  margin: 10px 10px 0px 10px;
+  margin: 0px;
+  padding: 10px;
 }
 
 .circle {
