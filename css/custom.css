@@ -11,58 +11,55 @@ body {
   background-color: white;
 }
 
-.homescreen {
-  padding-bottom: 65px;
-}
-
-.col-sm-6 {
-  margin: 0px;
-  padding: 0px;
-  height: 100%;
-}
-
 #tps-logo {
   margin: 0px;
   padding: 20px;
 }
 
-.navbar {
+#anit-navbar {
   background-color: #4a4a4a;
+  padding: 10px;
+  margin: 0px;
+  float: left;
 }
 
-.join-button {
-  z-index: 1;
-  background-color: green;
-  color: white;
-  margin: 5px 10px;
-  padding: 10px 20px;
-  border-radius: 10px;
+#anit-navbar > span {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#hexagon-column {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  display: inline-block;
+  /* border: 1px solid black; */
+}
+
+#tabloid-container {
+  margin: 0px;
+  padding: 0px;
+  float: left;
 }
 
 /* ------- */
 /* Content */
 /* ------- */
 
-#content_column {
+#content-column {
   padding: 10px;
-  height: 100%;
+  float: left;
+  display: inline-block;
+  /* border: 1px solid blue; */
 }
 
 .content {
   position: relative;
-}
-.col-sm-12 .content{
-  padding: 0px 15px 10px 15px;
-  margin: 0px;
+  width: 100%;
 }
 
 .content-row {
   margin: 12px 0px;
-}
-
-.content-column {
-  margin: 0px;
-  padding: 0px
 }
 
 .content-stripe {
@@ -190,7 +187,8 @@ div[class^="content beeclub"]{
 /* --------------------------- */
 .social {
   text-align: right;
-  margin: 10px 10px 0px 10px;
+  margin: 0px;
+  padding: 10px;
 }
 
 .circle {
@@ -238,18 +236,30 @@ div[class^="content beeclub"]{
 /* Pretty Buttons */
 /* -------------- */
 .tabloid-button{
-  border: 4px solid white;
+  border: 4px solid black;
   padding: 5px 10px;
   width: 250px;
-  position: absolute;
-  color: white;
+  color: black;
+  font-size: 1.5em;
   text-transform: uppercase;
   text-align: center;
-  right: 10px;
-  bottom: 10px;
+}
+
+.join-button {
+  border: 4px solid black;
+  padding: 5px 10px;
+  width: 350px;
+  color: black;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .tabloid-button:hover{
+  background-color: black;
+}
+
+.join-button:hover{
   background-color: black;
 }
 
@@ -266,18 +276,9 @@ div[class^="content beeclub"]{
 /* --------------------- */
 /* Tabloid customization */
 /* --------------------- */
-.tabloid {
+.tabloid-container {
   color: black;
-  height: 110%;
   margin-top: 20px;
-}
-
-#tabloid_1{
-  background-color: coral;
-}
-
-#tabloid_2{
-  background-color: teal;
 }
 
 /* --------- */

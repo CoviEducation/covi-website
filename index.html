@@ -14,73 +14,43 @@
   </head>
 
   <body>
-    <div class="container homescreen">
-      <!-- Hexagon & Preview Text -->
-      <div class="row">
-        <!-- Left Column (Logo, Hexagon Grid) -->
-        <div class="col-sm-6" id="hexagon-column">
-          <div id="tps-logo" data-target="content home">
-            <a href="#home"><img src="assets/tps_logo.png"/></a>
-          </div>
-
-          <div id="hexagons">
-            <div id="hex1" class="hexagon" data-target="content about"></div>
-            <div id="hex2" class="hexagon" data-target="content tilt"></div>
-            <div id="hex3" class="hexagon" data-target="content scihive"></div>
-            <div id="hex4" class="hexagon" data-target="content shareyourscience"></div>
-            <div id="hex5" class="hexagon" data-target="content archive"></div>
-            <div id="hex6" class="hexagon" data-target="content team"></div>
-            <div id="hex7" class="hexagon" data-target="content beeclub"></div>
-          </div>
-        </div>
-
-        <!-- Right Column (Content) -->
-        <div class="col-sm-6" id="content_column">
-          <!-- content goes here -->
-        </div>
+    <!-- Left Column (Logo, Hexagon Grid) -->
+    <div id="hexagon-column">
+      <div id="tps-logo" data-target="content home">
+        <a href="#home"><img src="assets/tps_logo.png"/></a>
       </div>
-      <!-- End of Container -->
+
+      <div id="hexagons">
+        <div id="hex1" class="hexagon" data-target="content about"></div>
+        <div id="hex2" class="hexagon" data-target="content tilt"></div>
+        <div id="hex3" class="hexagon" data-target="content scihive"></div>
+        <div id="hex4" class="hexagon" data-target="content shareyourscience"></div>
+        <div id="hex5" class="hexagon" data-target="content archive"></div>
+        <div id="hex6" class="hexagon" data-target="content team"></div>
+        <div id="hex7" class="hexagon" data-target="content beeclub"></div>
+      </div>
+    </div>
+
+    <!-- Right Column (Content) -->
+    <div id="content-column">
+      <!-- content goes here -->
     </div>
 
     <!-- Tabloids -->
-    <div id="tabloid_1" class="container tabloid hidden">
+    <div id="tabloid-container" class="tabloid hidden">
     </div>
 
-    <!-- Bottom Navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-bottom">
-      <div class="container">
-        <!-- Navbar Header -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-content" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-
-        <!-- Navbar Content -->
-        <div class="collapse navbar-collapse" id="navbar-content">
-          <!-- Navbar Left -->
-          <ul class="nav navbar-nav navbar-left">
-            <li><a href="#about" data-target="content about">About</a></li>
-            <li><a href="#team" data-target="content team">Team</a></li>
-            <li><a href="#tilt" data-target="content tilt">TiLT</a></li>
-            <li><a href="#archive" data-target="content archive">The Public Archive</a></li>
-            <li><a href="#scihive" data-target="content scihive">SciHive</a></li>
-            <li><a href="#shareyourscience" data-target="content shareyourscience">#ShareYourScience</a></li>
-            <li><a href="#beeclub" data-target="content beeclub">BeeClub</a></li>
-          </ul>
-
-          <!-- Navbar Right -->
-          <form class="navbar-form navbar-right">
-            <!-- <div class="join-button">Join the Effort!</div> -->
-            <button type="button" class="btn btn-success">Join the Effort!</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-
+    <!-- Navbar Menu -->
+    <div id="anit-navbar">
+      <span><a href="#about" data-target="content about">About</a></span>
+      <span><a href="#team" data-target="content team">Team</a></span>
+      <span><a href="#tilt" data-target="content tilt">TiLT</a></span>
+      <span><a href="#archive" data-target="content archive">The Public Archive</a></span>
+      <span><a href="#scihive" data-target="content scihive">SciHive</a></span>
+      <span><a href="#shareyourscience" data-target="content shareyourscience">#ShareYourScience</a></span>
+      <span><a href="#beeclub" data-target="content beeclub">BeeClub</a></span>
+      <button type="button" class="join-button">Join the Effort</button>
+    </div>
 
     <!-- jQuery -->
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
