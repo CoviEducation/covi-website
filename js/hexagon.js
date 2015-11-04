@@ -9,7 +9,7 @@ $(document).ready(function() {
     windowWidth = $(window).width();
     // console.log("Window Width:" + windowWidth);
 
-    if (windowWidth < 650) {
+    if (windowWidth < 610) {
       // console.log("Narrow view");
       width = windowWidth;
     } else {
@@ -34,8 +34,8 @@ $(document).ready(function() {
 
     // Reposition
     // Logo's Position
-    topRoot = $("#tps-logo").position().top + $("#tps-logo img").height() + 25 + .05*hexHeight;
-    leftRoot = $("#tps-logo").position().left + $("#tps-logo img").width() + 25 + .05*hexWidth;
+    topRoot = 200; // $("#tps-logo").position().top + $("#tps-logo img").height() + 25 + .05*hexHeight;
+    leftRoot = hexWidth * .9; // $("#tps-logo").position().left + $("#tps-logo img").width() + 25 + .05*hexWidth;
 
     // Horizontal
     middleColumnLeft = leftRoot;
