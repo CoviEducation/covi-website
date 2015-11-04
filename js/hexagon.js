@@ -5,9 +5,9 @@ $(document).ready(function() {
   hexagonWidthToHeightRatio = 0.8660254037;
 
   transformHexagons = function(){
-    console.log("\n");
+    // console.log("\n");
     windowWidth = $(window).width();
-    console.log("Window Width:" + windowWidth);
+    // console.log("Window Width:" + windowWidth);
 
     if (windowWidth < 650) {
       // console.log("Narrow view");
@@ -17,13 +17,13 @@ $(document).ready(function() {
       width = windowWidth * .5;
     }
 
-    width = width + 'px';
+    // width = width + 'px';
 
     // Resize hex and content columns
     $("#hexagon-column").css('width',width).css('height',$(window).height());
     $("#content-column").css('width',width);
-    console.log("HexagonColumn (" + $("#hexagon-column").width() + ") & Content Column(" + $("#content-column").width() + ")" + "");
-    console.log("SUM WIDTH: " + ($("#hexagon-column").width() + $("#content-column").width()));
+    // console.log("HexagonColumn (" + $("#hexagon-column").width() + ") & Content Column(" + $("#content-column").width() + ")" + "");
+    // console.log("SUM WIDTH: " + ($("#hexagon-column").width() + $("#content-column").width()));
 
     // Resize Hexagons
     hexSectionWidth = width * 0.9;
