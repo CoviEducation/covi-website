@@ -31,23 +31,12 @@ $(document).ready(function() {
     // Local
     window.location.replace(window.location.origin + "/#" + target);
     $("#content-column").load("/html/contents/" + target + ".html");
+    $("#tabloid-container").load("/html/tabloids/" + 'home' + ".html");
   }
 
   // Tabloid Reveal/Scrollto
-  $(".tabloid-button").click(function(data){
-    console.log("Clicking a tabloid button")
-    target = this.attributes["data-target"].value;
-
-    // Hide all other tabloids
-    hideTabloids();
-
-    // Reveal target tabloid
-    $("#" + target).removeClass("hidden");
-
-    // Scroll to target tabloid
-    $('html, body').animate({
-      scrollTop: $("#" + target).offset().top
-      }, 2000);
+  $('button').click( function(data){
+    console.log("HEYYYO LMAo");
   });
 
   hideTabloids = function(){

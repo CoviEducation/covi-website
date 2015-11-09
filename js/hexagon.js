@@ -34,7 +34,7 @@ $(document).ready(function() {
 
     // Reposition
     // Logo's Position
-    topRoot = 180; // $("#tps-logo").position().top + $("#tps-logo img").height() + 25 + .05*hexHeight;
+    topRoot = 150; // $("#tps-logo").position().top + $("#tps-logo img").height() + 25 + .05*hexHeight;
     leftRoot = hexWidth * .9; // $("#tps-logo").position().left + $("#tps-logo img").width() + 25 + .05*hexWidth;
 
     // Horizontal
