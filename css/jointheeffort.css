@@ -1,0 +1,49 @@
+#jointheeffort-container {
+  /*border: 1px solid blue;*/
+  float: left;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.jointheeffort-gray-section {
+  background-color: gray;
+  padding: 15px;
+}
+
+#jointheeffort-getinvolved-section {
+  padding: 15px;
+}
+
+#jointheeffort-getinvolved-section .item {
+  margin-bottom: 20px;
+}
+
+#jointheeffort-contact-section {
+  text-align: center;
+}
+
+.jointheeffort h1,h3 {
+  color: white;
+  text-align: center;
+}
+
+.jointheeffort h2 {
+  color: darkgray;
+  text-align: center;
+}
+
+.jointheeffort h4 {
+  color: darkgray;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.jointheeffort h5 {
+  color: darkgray;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 5px;
+}

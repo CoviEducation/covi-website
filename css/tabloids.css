@@ -4,9 +4,11 @@
 #tabloid-container {
   width: 100%;
   margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
   min-height: 100%;
   color: black;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 /* ------- */
