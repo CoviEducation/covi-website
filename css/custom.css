@@ -10,6 +10,14 @@ body {
   background-color: white;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+.align-center {
+  text-align: center;
+}
+
 #tps-logo {
   margin: 0px;
   padding: 20px;
