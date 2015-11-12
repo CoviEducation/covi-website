@@ -102,6 +102,14 @@ div[class*="stripe"]{
   /*text-transform: uppercase;*/
 }
 
+.stripe-scihive {
+  color: #bdca3a;
+}
+
+.stripe-archive {
+  color: #faa22c;
+}
+
 /* ---------------- */
 /* Content Headings */
 /* ---------------- */
@@ -152,6 +160,10 @@ div[class*="stripe"]{
 
 .tagline-tilt {
   width: 380px;
+}
+
+.tagline-archive {
+  font-size: 14pt;
 }
 
 /* --------------------- */
