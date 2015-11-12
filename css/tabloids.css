@@ -12,9 +12,9 @@
   /*border: 1px solid black;*/
 }
 
-/* ------- */
-/* Mission */
-/* ------- */
+/* ------------ */
+/* Home/Mission */
+/* ------------ */
 
 .mission-engine-stripe {
   width: 100%;
@@ -38,4 +38,31 @@
   marign-right: 2.5%;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+
+/* ---- */
+/* Team */
+/* ---- */
+
+.team-tabloid-section-stripe {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.core-team-profile-blurb {
+  background-color: tan;
+  min-height: 200px;
+  border: 1px solid black;
+}
+
+.team-tabloid-advisors-blurb {
+  min-height: 200px;
+  background-color: teal;
+}
+
+.team-tabloid-gray-content{
+  background-color: gray;
 }
