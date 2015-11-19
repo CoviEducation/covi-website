@@ -239,7 +239,7 @@ div[class^="content beeclub"]{
   position: relative;
   height: 15px;
   width: 15px;
-  top: 5px;
+  top: 3px;
 }
 
 .circle .glyphicon {
@@ -266,9 +266,14 @@ div[class^="content beeclub"]{
   padding: 5px 10px;
   width: 250px;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  background-color: transparent;
   text-transform: uppercase;
   text-align: center;
+}
+
+.tabloid-button:hover{
+  background-color: rgba(255, 255, 255, .4);
 }
 
 .join-button {
@@ -277,22 +282,19 @@ div[class^="content beeclub"]{
   width: 350px;
   color: white;
   font-size: 2em;
+  background-color: none;
   text-transform: uppercase;
   text-align: center;
 }
 
-.tabloid-button:hover{
-  background-color: gray;
-}
-
 .join-button:hover{
-  background-color: black;
+  background-color: rgba(255, 255, 255, .4);
 }
 
 /* ----------- */
 /* Tagline Bar */
 /* ----------- */
-.tagline{
+.tagline {
   width: 100%;
   background-color: white;
   color: dimgray;
