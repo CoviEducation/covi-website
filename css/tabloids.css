@@ -89,13 +89,17 @@
   color: rgba(#2D2D2D, .7);
   width: 100%;
   padding: 15px;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 
 /* ------------ */
 /* Origin Story */
 /* ------------ */
+.team-tabloid-origin-story {
+  margin: 30px 0px;
+}
+
 .team-tabloid-origin {
   color: #61BCAF;
 }

@@ -31,7 +31,7 @@ $(document).ready(function() {
     // Local
     window.location.replace(window.location.origin + "/#" + target);
     $("#content-column").load("/html/contents/" + target + ".html");
-    $("#tabloid-container").load("/html/tabloids/" + 'team' + ".html");
+    $("#tabloid-container").load("/html/tabloids/" + 'home' + ".html");
     $("#jointheeffort-container").load("/html/tabloids/jointheeffort.html");
   }
 
