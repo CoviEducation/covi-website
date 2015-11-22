@@ -12,6 +12,10 @@
   /*border: 1px solid black;*/
 }
 
+.touching-title {
+  margin-bottom: -5px;
+}
+
 /* ------------ */
 /* Home/Mission */
 /* ------------ */
@@ -44,6 +48,44 @@
 /* ---- */
 /* Team */
 /* ---- */
+.tabloid-team-splash {
+  width: 100%;
+}
+
+/* Origin Story */
+.team-tabloid-origin {
+  color: #61BCAF;
+}
+
+.team-tabloid-origin-content {
+  background-color: #61BCAF;
+  color: white;
+  padding: 15px;
+}
+
+/**/
+.team-tabloid-section-stripe {
+  background-color: #CF9060;
+  color: rgba(#2D2D2D, .7);
+  width: 100%;
+  padding: 10px;
+  font-size: 18pt;
+}
+
+.team-tabloid-advisors-picture {
+  text-align: center
+}
+
+#team-tabloid-core .row {
+  margin-bottom: 20px;
+}
+
+.tabloid-team-member {
+  width: 98.5%;
+  min-width: 150px;
+  max-width: 250px;
+  height: auto;
+}
 
 .team-tabloid-section-stripe {
   width: 100%;
@@ -60,9 +102,24 @@
 
 .team-tabloid-advisors-blurb {
   min-height: 200px;
-  background-color: teal;
+  background-color: #A9C4B4;
 }
 
+/* Gray Section */
+.team-tabloid-gray-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.team-tabloid-gray-title {
+  color: #2D2D2D;
+}
 .team-tabloid-gray-content{
-  background-color: gray;
+  background-color: #2D2D2D;
+  color: white;
+}
+
+/* Funding & Partners */
+.team-tabloid-funding-partner-tile {
+  text-align: center;
 }
