@@ -24,24 +24,29 @@
   text-align: center;
 }
 
-.jointheeffort h1,h3 {
+#jointheeffort-section h1 {
   color: white;
   text-align: center;
 }
 
-.jointheeffort h2 {
-  color: darkgray;
+#jointheeffort-section h3 {
+  color: white;
   text-align: center;
 }
 
-.jointheeffort h4 {
-  color: darkgray;
+#jointheeffort-section h2 {
+  color: #2D2D2D;
+  text-align: center;
+}
+
+#jointheeffort-section h4 {
+  color: #2D2D2D;
   text-align: center;
   text-transform: uppercase;
 }
 
-.jointheeffort h5 {
-  color: darkgray;
+#jointheeffort-section h5 {
+  color: #2D2D2D;
   text-transform: uppercase;
   margin: 0px;
   padding: 0px;

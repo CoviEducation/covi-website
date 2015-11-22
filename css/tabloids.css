@@ -1,6 +1,39 @@
 /* ------- */
 /* Overall */
 /* ------- */
+
+#tabloid_team h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#tabloid_team h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#tabloid_team h3 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#tabloid_team h4 {
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 5px;
+}
+
+#tabloid_team h5 {
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 15px;
+}
+
+#tabloid_team h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
 #tabloid-container {
   width: 100%;
   margin-top: 20px;
@@ -60,7 +93,7 @@
 .team-tabloid-origin-content {
   background-color: #61BCAF;
   color: white;
-  padding: 15px;
+  padding: 10px;
 }
 
 /**/
@@ -94,10 +127,13 @@
   padding: 10px;
 }
 
+.core-team-profile-picture {
+  text-align: center;
+}
 .core-team-profile-blurb {
-  background-color: tan;
+  background-color: #E2E0CC;
   min-height: 200px;
-  border: 1px solid black;
+  padding: 15px 10px 15px 10px;
 }
 
 .team-tabloid-advisors-blurb {
