@@ -1,7 +1,6 @@
 /* ------- */
 /* Overall */
 /* ------- */
-
 #tabloid_team h1 {
   margin: 0px;
   padding: 0px;
@@ -72,7 +71,7 @@
   width: 95%;
   border-radius: 10px;
   margin-left: 2.5%;
-  marign-right: 2.5%;
+  margin-right: 2.5%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -101,12 +100,18 @@
   background-color: #CF9060;
   color: rgba(#2D2D2D, .7);
   width: 100%;
-  padding: 10px;
-  font-size: 18pt;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
+/* Advisors*/
 .team-tabloid-advisors-picture {
-  text-align: center
+  text-align: center;
+}
+
+.team-tabloid-advisors-blurb {
+  padding: 15px 10px 15px 10px;
 }
 
 #team-tabloid-core .row {
@@ -115,16 +120,9 @@
 
 .tabloid-team-member {
   width: 98.5%;
-  min-width: 150px;
+  /*min-width: 150px;*/
   max-width: 250px;
   height: auto;
-}
-
-.team-tabloid-section-stripe {
-  width: 100%;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  padding: 10px;
 }
 
 .core-team-profile-picture {
@@ -141,7 +139,21 @@
   background-color: #A9C4B4;
 }
 
+/* ------------ */
 /* Gray Section */
+/* ------------ */
+.team-tabloid-greybar {
+  width: 85%;
+  min-width: 120px;
+  max-width: 250px;
+  height: auto;
+}
+
+.team-tabloid-greybar-container {
+  padding: 20px;
+  text-align: center;
+}
+
 .team-tabloid-gray-section {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -150,9 +162,11 @@
 .team-tabloid-gray-title {
   color: #2D2D2D;
 }
+
 .team-tabloid-gray-content{
   background-color: #2D2D2D;
   color: white;
+  padding: 15px 10px;
 }
 
 /* Funding & Partners */
