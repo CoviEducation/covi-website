@@ -84,7 +84,18 @@
   width: 100%;
 }
 
+.team-tabloid-section-stripe {
+  background-color: #CF9060;
+  color: rgba(#2D2D2D, .7);
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* ------------ */
 /* Origin Story */
+/* ------------ */
 .team-tabloid-origin {
   color: #61BCAF;
 }
@@ -95,17 +106,13 @@
   padding: 10px;
 }
 
-/**/
-.team-tabloid-section-stripe {
-  background-color: #CF9060;
-  color: rgba(#2D2D2D, .7);
-  width: 100%;
-  padding: 15px;
+/* -------- */
+/* Advisors */
+/* -------- */
+.team-tabloid-advisors-item {
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 
-/* Advisors*/
 .team-tabloid-advisors-picture {
   text-align: center;
 }
@@ -118,9 +125,8 @@
   margin-bottom: 20px;
 }
 
-.tabloid-team-member {
+.team-tabloid-member {
   width: 98.5%;
-  /*min-width: 150px;*/
   max-width: 250px;
   height: auto;
 }
@@ -142,21 +148,20 @@
 /* ------------ */
 /* Gray Section */
 /* ------------ */
-.team-tabloid-greybar {
+.team-tabloid-graybar {
   width: 85%;
   min-width: 120px;
   max-width: 250px;
   height: auto;
 }
 
-.team-tabloid-greybar-container {
+.team-tabloid-graybar-container {
   padding: 20px;
   text-align: center;
 }
 
 .team-tabloid-gray-section {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 30px 0px;
 }
 
 .team-tabloid-gray-title {
