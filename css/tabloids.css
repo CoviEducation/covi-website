@@ -5,6 +5,22 @@
   text-align: center;
 }
 
+.text-align-right {
+  text-align: right;
+}
+
+.color-pale-gold {
+  color: gold;
+}
+
+.color-pale-green {
+
+}
+
+.color-pale-orange {
+
+}
+
 #tabloid-container {
   width: 100%;
   margin-top: 20px;
@@ -23,6 +39,10 @@
 /* ------------ */
 /* Home/Mission */
 /* ------------ */
+
+/* ----------------- */
+/* Mission Statement */
+/* ----------------- */
 
 .mission-engine-stripe {
   width: 100%;
@@ -46,4 +66,98 @@
   margin-right: 2.5%;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+#mission-tabloid-bigwords-part1 {
+
+}
+
+#mission-tabloid-bigwords-part1 {
+
+}
+
+#mission-tabloid-bigwords-part1 {
+
+}
+
+/* ------- */
+/* Borders */
+/* ------- */
+.dashed-gray-border-top {
+  border-top: 3pt lightgray dashed;
+}
+
+.dashed-gray-border-bottom {
+  border-bottom: 3pt lightgray dashed;
+}
+
+.dashed-gray-border-left {
+  border-left: 3pt lightgray dashed;
+}
+
+.dashed-gray-border-right {
+  border-right: 3pt lightgray dashed;
+}
+
+.dashed-blue-border-left {
+  border-left: 3pt teal dashed;
+}
+
+/* ---------- */
+/* Two Column */
+/* ---------- */
+#mission-tabloid-access-bias {
+  padding-bottom: 30px;
+}
+
+#mission-tabloid-postscript {
+  padding: 30px;
+}
+
+#mission-tabloid-access-bias .picture {
+  max-width: 95%;
+  padding: 30px 0px;
+}
+
+/* ------------ */
+/* Three Column */
+/* ------------ */
+.mission-identity-column-header > .heavy {
+  font-weight: 400;
+  color: #2D2D2D;
+}
+
+.mission-identity-column-header > .light {
+  font-weight: 100;
+  color: gray;
+}
+
+.mission-identity-column-header {
+  /*background-color: #E8EAE4;*/
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* ---- */
+/* A, B */
+/* ---- */
+
+/* ------- */
+/* C, D, E */
+/* ------- */
+.mission-cde-header {
+  font-weight: 100;
+  font-size: 48pt;
+  padding: 35px 20px;
+  margin-bottom: 30px;
+}
+
+#mission-tabloid-threecolumn .mission-identity-column-image {
+  max-width: 90%;
+}
+
+#mission-tabloid-threecolumn .mission-identity-column-text {
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
