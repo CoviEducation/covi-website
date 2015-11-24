@@ -1,0 +1,138 @@
+/* ---- */
+/* Team */
+/* ---- */
+
+#tabloid_team h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#tabloid_team h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#tabloid_team h3 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#tabloid_team h4 {
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 5px;
+}
+
+#tabloid_team h5 {
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 15px;
+}
+
+#tabloid_team h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.tabloid-team-splash {
+  width: 100%;
+}
+
+.team-tabloid-section-stripe {
+  background-color: #CF9060;
+  color: rgba(#2D2D2D, .7);
+  width: 100%;
+  padding: 15px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* ------------ */
+/* Origin Story */
+/* ------------ */
+.team-tabloid-origin-story {
+  margin: 30px 0px;
+}
+
+.team-tabloid-origin {
+  color: #61BCAF;
+}
+
+.team-tabloid-origin-content {
+  background-color: #61BCAF;
+  color: white;
+  padding: 10px;
+}
+
+/* -------- */
+/* Advisors */
+/* -------- */
+.team-tabloid-advisors-item {
+  margin-top: 20px;
+}
+
+.team-tabloid-advisors-picture {
+  text-align: center;
+}
+
+.team-tabloid-advisors-blurb {
+  padding: 15px 10px 15px 10px;
+}
+
+#team-tabloid-core .row {
+  margin-bottom: 20px;
+}
+
+.team-tabloid-member {
+  width: 98.5%;
+  max-width: 250px;
+  height: auto;
+}
+
+.core-team-profile-picture {
+  text-align: center;
+}
+.core-team-profile-blurb {
+  background-color: #E2E0CC;
+  min-height: 200px;
+  padding: 15px 10px 15px 10px;
+}
+
+.team-tabloid-advisors-blurb {
+  min-height: 200px;
+  background-color: #A9C4B4;
+}
+
+/* ------------ */
+/* Gray Section */
+/* ------------ */
+.team-tabloid-graybar {
+  width: 85%;
+  min-width: 120px;
+  max-width: 250px;
+  height: auto;
+}
+
+.team-tabloid-graybar-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.team-tabloid-gray-section {
+  margin: 30px 0px;
+}
+
+.team-tabloid-gray-title {
+  color: #2D2D2D;
+}
+
+.team-tabloid-gray-content{
+  background-color: #2D2D2D;
+  color: white;
+  padding: 15px 10px;
+}
+
+/* Funding & Partners */
+.team-tabloid-funding-partner-tile {
+  text-align: center;
+}
