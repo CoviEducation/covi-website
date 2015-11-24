@@ -206,28 +206,42 @@
 /* ------------ */
 /* Three Column */
 /* ------------ */
-.mission-identity-column-header > .heavy {
+.mission-identity-column {
+  padding: 0px;
+}
+
+.mission-identity-column .text {
+  padding: 20px;
+}
+
+.mission-identity-column .header {
+  /*background-color: #E8EAE4;*/
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 1.6em;
+  background-color: #EEEEEE;
+}
+
+.mission-identity-column .header > .heavy {
   font-weight: 400;
   color: #2D2D2D;
   display: inline-block;
 }
 
-.mission-identity-column-header > .light {
+.mission-identity-column .header > .light {
   font-weight: 100;
   color: gray;
   display: inline-block;
 }
 
-.mission-identity-column-header img {
+.mission-identity-column > .image {
+  padding: 20px;
+}
+
+.mission-identity-column .image img {
   width: 100%;
 }
 
-.mission-identity-column-header {
-  /*background-color: #E8EAE4;*/
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 28px;
-}
 
 /* ---- */
 /* A, B */
@@ -256,10 +270,6 @@
   padding: 35px 20px;
   margin-bottom: 30px;
 }
-
-/*#mission-tabloid-threecolumn .mission-identity-column-image {
-  max-width: 90%;
-}*/
 
 #mission-tabloid-threecolumn .mission-identity-column-text {
   padding-top: 30px;
