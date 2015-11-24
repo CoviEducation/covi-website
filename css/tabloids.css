@@ -21,6 +21,25 @@
 
 }
 
+.inline-block {
+  display: inline-block;
+}
+
+/* ------------ */
+/* Font Weights */
+/* ------------ */
+.font-weight-light {
+  font-weight: 100;
+}
+
+.font-weight-medium {
+  font-weight: 400;
+}
+
+.font-weight-heavy {
+  font-weight: 800;
+}
+
 #tabloid-container {
   width: 100%;
   margin-top: 20px;
@@ -32,13 +51,48 @@
   /*border: 1px solid black;*/
 }
 
+
+/* ------- */
+/* Borders */
+/* ------- */
+.dashed-gray-border-top {
+  border-top: 3pt lightgray dashed;
+}
+
+.dashed-gray-border-bottom {
+  border-bottom: 3pt lightgray dashed;
+}
+
+.dashed-gray-border-left {
+  border-left: 3pt lightgray dashed;
+}
+
+.dashed-gray-border-right {
+  border-right: 3pt lightgray dashed;
+}
+
+.dashed-blue-border-left {
+  border-left: 3pt teal dashed;
+}
+
 .touching-title {
   margin-bottom: -5px;
 }
 
+
 /* ------------ */
 /* Home/Mission */
 /* ------------ */
+
+.mission-blurb-text {
+  font-weight: 200;
+  font-size: 1.2em;
+}
+
+.subparagraph {
+  font-size: .9em;
+  padding: 0px 20px;
+}
 
 /* ----------------- */
 /* Mission Statement */
@@ -80,34 +134,61 @@
 
 }
 
-/* ------- */
-/* Borders */
-/* ------- */
-.dashed-gray-border-top {
-  border-top: 3pt lightgray dashed;
+
+/* -------- */
+/* Projects */
+/* -------- */
+.mission-projects-item {
+  margin-top: 30px;
 }
 
-.dashed-gray-border-bottom {
-  border-bottom: 3pt lightgray dashed;
+.mission-projects-blurb {
+  border-left: 1px black dashed;
 }
 
-.dashed-gray-border-left {
-  border-left: 3pt lightgray dashed;
+.mission-projects-hexagon {
+  padding: 10px;
+  text-align: center;
 }
 
-.dashed-gray-border-right {
-  border-right: 3pt lightgray dashed;
+.mission-projects-hexagon img {
+  max-width: 180px;
+  width: 100%;
 }
 
-.dashed-blue-border-left {
-  border-left: 3pt teal dashed;
+/* ---------- */
+/* Philosophy */
+/* ---------- */
+.mission-philosophy-item .picture {
+  padding: 20px;
+}
+
+.mission-philosophy-item .picture img {
+  max-width: 120px;
+  width: 100%;
+}
+
+.mission-philosophy-item .text {
+  border-left: 2px teal dashed;
+}
+
+/* ------------ */
+/* Nitty Gritty */
+/* ------------ */
+.tabloid-home-splash {
+  padding: 20px;
+}
+
+.tabloid-home-splash img {
+  width: 100%;
 }
 
 /* ---------- */
 /* Two Column */
 /* ---------- */
 #mission-tabloid-access-bias {
-  padding-bottom: 30px;
+  margin-top: 30px;
+  padding-bottom: 35px;
 }
 
 #mission-tabloid-postscript {
@@ -115,8 +196,11 @@
 }
 
 #mission-tabloid-access-bias .picture {
-  max-width: 95%;
-  padding: 30px 0px;
+  padding: 30px 20px;
+}
+
+#mission-tabloid-access-bias img {
+  width: 100%;
 }
 
 /* ------------ */
@@ -125,23 +209,43 @@
 .mission-identity-column-header > .heavy {
   font-weight: 400;
   color: #2D2D2D;
+  display: inline-block;
 }
 
 .mission-identity-column-header > .light {
   font-weight: 100;
   color: gray;
+  display: inline-block;
+}
+
+.mission-identity-column-header img {
+  width: 100%;
 }
 
 .mission-identity-column-header {
   /*background-color: #E8EAE4;*/
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 36px;
+  font-size: 28px;
 }
 
 /* ---- */
 /* A, B */
 /* ---- */
+#mission-tabloid-access-bias .header {
+  margin: 10px 0px;
+  width: 100%;
+  font-size: 36pt;
+}
+
+#mission-tabloid-access-bias .col-sm-6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#mission-tabloid-access-bias .text {
+  padding: 20px;
+}
 
 /* ------- */
 /* C, D, E */
@@ -153,9 +257,9 @@
   margin-bottom: 30px;
 }
 
-#mission-tabloid-threecolumn .mission-identity-column-image {
+/*#mission-tabloid-threecolumn .mission-identity-column-image {
   max-width: 90%;
-}
+}*/
 
 #mission-tabloid-threecolumn .mission-identity-column-text {
   padding-top: 30px;
