@@ -9,17 +9,39 @@
   text-align: right;
 }
 
+.color-light-gray {
+
+}
+
+.color-medium-gray {
+  color: #888888
+}
+
+.color-dark-gray {
+  color: #2D2D2D;
+}
+
+
+.color-pale-orange {
+  color: #FFD59A;
+}
+
 .color-pale-gold {
-  color: gold;
+  color: #E2C46F;
+}
+
+.color-dark-gold {
+  color: #B7A87F;
+}
+
+.color-pale-teal {
+  color: #AECDBB;
 }
 
 .color-pale-green {
-
+  color: #AFC179;
 }
 
-.color-pale-orange {
-
-}
 
 .inline-block {
   display: inline-block;
@@ -91,8 +113,82 @@
 
 .subparagraph {
   font-size: .9em;
-  padding: 0px 20px;
+  padding: 10px 20px;
 }
+
+
+/* Mission Statement Pt 1 */
+#mission-tabloid-bigwords-part1 {
+  font-size: 10em;
+  line-height: 1em;
+  float: left;
+  font-weight: 900;
+  margin: 5px;
+}
+
+#mission-tabloid-bigwords-part2 {
+  font-size: 4em;
+  line-height: 1em;
+  font-weight: 800;
+  float: left;
+  margin: 5px;
+}
+
+#mission-tabloid-bigwords-part3 {
+  font-size: 2.5em;
+  line-height: 1em;
+  font-weight: 800;
+  float: left;
+  margin: 5px;
+}
+
+/* Mission Statement Pt 2 */
+#mission-tabloid-statement-pt2 {
+  margin-top: 30px;
+}
+
+#mission-tabloid-statement-pt2 .graphic{
+  float: left;
+  width: 45%;
+}
+
+#mission-tabloid-statement-pt2 .graphic img{
+  width: 100%;
+}
+
+#mission-tabloid-statement-pt2 .pt1 {
+  font-size: 3.5vw;
+  font-weight: 600;
+  line-height: 1.25em;
+  color: gray;
+  margin: 10px;
+}
+
+#mission-tabloid-statement-pt2 .pt2 {
+  font-size: 2.75vw;
+  font-weight: 600;
+  line-height: 1.25em;
+  color: gray;
+  margin: 10px;
+}
+
+#mission-tabloid-statement-pt2 .pt3 {
+  font-size: 10vw;
+  font-weight: 800;
+  line-height: 1.25em;
+  color: gold;
+  margin: 10px;
+}
+
+#mission-tabloid-statement-pt2 .pt4 {
+  font-size: 7.5vw;
+  font-weight: 800;
+  line-height: 1em;
+  color: gold;
+  margin: 10px;
+}
+
+
 
 /* ----------------- */
 /* Mission Statement */
@@ -104,15 +200,27 @@
   padding: 15px;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+  font-weight: 900;
+  margin: 30px 0px;
 }
 
-.mission-engine-paragraph {
-  text-align: center;
+#mission-tabloid-engine .col-sm-4 {
+  padding-bottom:30px;
+}
+
+#mission-tabloid-engine .image {
+  padding: 20px;
+}
+
+#mission-tabloid-engine .image img {
+  width: 100%;
+  max-width: 300px;
 }
 
 .mission-separator {
-  background-color: gray;
+  background-color: #888888;
   height: 20px;
   width: 95%;
   border-radius: 10px;
@@ -122,18 +230,22 @@
   margin-bottom: 20px;
 }
 
-#mission-tabloid-bigwords-part1 {
-
+/* ------------------ */
+/* Dual-Color Headers */
+/* ------------------ */
+.mission-tabloid-dual-header {
+  font-weight: 900;
+  line-height: 1em;
+  font-size: 4em;
+  margin: 20px 0px;
 }
 
-#mission-tabloid-bigwords-part1 {
-
+#mission-tabloid-projects .mission-tabloid-dual-header {
+  margin-bottom: 0px;
 }
-
-#mission-tabloid-bigwords-part1 {
-
+#mission-tabloid-clicklogos {
+  font-size: 2em;
 }
-
 
 /* -------- */
 /* Projects */
@@ -274,4 +386,25 @@
 #mission-tabloid-threecolumn .mission-identity-column-text {
   padding-top: 30px;
   padding-bottom: 60px;
+}
+
+#mission-tabloid-collaboration, #mission-tabloid-design, #mission-tabloid-evidence {
+  padding-bottom: 40px;
+}
+
+#mission-tabloid-collaboration .image {
+  padding: 20px;
+}
+
+#mission-tabloid-collaboration .image img{
+  width: 100%;
+}
+
+.mission-cde-fullwidth-image {
+  padding: 20px;
+}
+
+.mission-cde-fullwidth-image img {
+  width: 100%;
+  max-width: 800px;
 }
