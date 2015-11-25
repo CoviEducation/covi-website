@@ -214,7 +214,7 @@ div[class^="content beeclub"]{
   padding: 10px;
 }
 
-.circle {
+.social .circle {
   border-radius: 50%;
   width: 30px;
   height: 30px;
@@ -225,21 +225,21 @@ div[class^="content beeclub"]{
   border: 1px solid white;
 }
 
-.circle .twitter-logo {
+.social .circle .twitter-logo {
   position: relative;
   height: 25px;
   width: 25px;
   top: 2px;
 }
 
-.circle .fb-logo {
+.social .circle .fb-logo {
   position: relative;
   height: 15px;
   width: 15px;
   top: 3px;
 }
 
-.circle .glyphicon {
+.social .circle .glyphicon {
   font-size: 16px;
   top: 7px;
 }
@@ -248,11 +248,56 @@ div[class^="content beeclub"]{
   top: 15px;
 }
 
+/* Join the effort*/
+.jointheeffort-social .circle {
+  border-radius: 50%;
+  margin: 20px;
+  width: 110px;
+  height: 110px;
+  background-color: #2d2d2d;
+  color: snow;
+  text-align: center;
+  overflow: hidden;
+  display: inline-block;
+  border: 1px solid white;
+}
+
+.jointheeffort-social .circle .twitter-logo {
+  position: relative;
+  height: 90%;
+  width: 90%;
+  top: 7px;
+}
+
+.jointheeffort-social .circle .fb-logo {
+  position: relative;
+  height: 40%;
+  width: 40%;
+  top: 30px;
+}
+
+.jointheeffort-social .circle .glyphicon {
+  font-size: 3.75em;
+  top: 25px;
+}
+
 /* -------------------- */
 /* Circle customization */
 /* -------------------- */
 .circle:hover{
   background-color: gray;
+}
+
+.jointheeffort-social .twitter-circle:hover{
+  background-color: lightblue;
+}
+
+.jointheeffort-social .fb-circle:hover{
+  background-color: darkblue;
+}
+
+.jointheeffort-social .email-circle:hover{
+  background-color: #AECDBB;
 }
 
 /* --------------- */
