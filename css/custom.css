@@ -107,6 +107,7 @@ a#navbar-beeclub:hover {
 .content {
   position: relative;
   width: 100%;
+  padding-bottom: 10px;
 }
 
 .content-row {

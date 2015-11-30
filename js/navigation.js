@@ -23,25 +23,27 @@ $(document).ready(function() {
 
   function change_page(target){
     if (!isValidPage(target)) { target = "home"; }
-
     window.location.replace(window.location.origin + "/#" + target);
     hideTabloids();
     $("#content-column").load("/html/contents/" + target + ".html");
-
   }
 
-  change_tabloid = function(target){
+  //  Tabloids
+  function change_tabloid(target){
     hideTabloids();
     $("#tabloid-container").load("/html/tabloids/" + target + ".html");
     $("#tabloid-container").removeClass("hidden");
+    $('html, body').animate({ scrollTop: $("#tabloid-container").offset().top }, 2000);
   }
 
-  // Tabloid Reveal/Scrollto
   $('#content-column').click( function(data){
-    console.log("HEYYYO LMAo");
     if (data.toElement.className == "tabloid-button"){
       change_tabloid(data.toElement.dataset.target);
     }
+  });
+
+  $('.join-button').click( function(data){
+    change_tabloid('jointheeffort');
   });
 
   function hideTabloids(){

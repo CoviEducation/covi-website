@@ -40,7 +40,7 @@
 
 .team-tabloid-section-stripe {
   background-color: #CF9060;
-  color: rgba(#2D2D2D, .7);
+  color: #2D2D2D;
   width: 100%;
   padding: 15px;
   margin-top: 40px;
@@ -77,6 +77,7 @@
 
 .team-tabloid-advisors-blurb {
   padding: 15px 10px 15px 10px;
+  font-size: .9em;
 }
 
 #team-tabloid-core .row {
