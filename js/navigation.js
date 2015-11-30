@@ -22,16 +22,24 @@ $(document).ready(function() {
   }
 
   function change_page(target){
+    // Production vs. Local
+    // var root = "/tps";
+    root = ""
+
     if (!isValidPage(target)) { target = "home"; }
-    window.location.replace(window.location.origin + "/#" + target);
+    window.location.replace(window.location.origin + root + "/#" + target);
     hideTabloids();
-    $("#content-column").load("/html/contents/" + target + ".html");
+    $("#content-column").load(root + "/html/contents/" + target + ".html");
   }
 
   //  Tabloids
   function change_tabloid(target){
+    // Production vs. Local
+    // var root = "/tps";
+    root = ""
+
     hideTabloids();
-    $("#tabloid-container").load("/html/tabloids/" + target + ".html");
+    $("#tabloid-container").load(root + "/html/tabloids/" + target + ".html");
     $("#tabloid-container").removeClass("hidden");
     $('html, body').animate({ scrollTop: $("#tabloid-container").offset().top }, 2000);
   }
