@@ -30,6 +30,7 @@ $(document).ready(function() {
     window.location.replace(window.location.origin + root + "/#" + target);
     hideTabloids();
     $("#content-column").load(root + "/html/contents/" + target + ".html");
+    $('html, body').animate({ scrollTop: $("#content-column").offset().top }, 300);
   }
 
   //  Tabloids
@@ -50,11 +51,27 @@ $(document).ready(function() {
     }
   });
 
+  function load_jointheeffort(){
+    // Production vs. Local
+    // var root = "/tps";
+    root = ""
+
+    hideTabloids();
+    $("#jointheeffort-container").load(root + "html/tabloids/jointheeffort.html");
+    $("#jointheeffort-container").removeClass("hidden");
+    scrollto_jointheeffort();
+  }
+
+  function scrollto_jointheeffort(){
+    $('html, body').animate({ scrollTop: $("#jointheeffort-container").offset().top }, 2000);
+  }
+
   $('.join-button').click( function(data){
-    change_tabloid('jointheeffort');
+    load_jointheeffort();
   });
 
   function hideTabloids(){
     $("#tabloid-container").addClass("hidden");
+    $("#jointheeffort-container").addClass("hidden");
   }
 });

@@ -21,6 +21,8 @@ body {
 #tps-logo {
   margin: 0px;
   padding: 20px;
+  float: left;
+  display: inline-block;
 }
 
 /* ------ */
@@ -84,10 +86,9 @@ a#navbar-beeclub:hover {
   padding: 0px;
   float: left;
   display: inline-block;
-  /* border: 1px solid black; */
 }
 
-#tabloid-container {
+#tabloid-container, #jointheeffot-container {
   margin: 0px;
   padding: 0px;
   float: left;
