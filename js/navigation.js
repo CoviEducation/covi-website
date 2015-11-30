@@ -23,8 +23,8 @@ $(document).ready(function() {
 
   function change_page(target){
     // Production vs. Local
-    // var root = "/tps";
-    root = ""
+    var root = "/tps";
+    // root = ""
 
     if (!isValidPage(target)) { target = "home"; }
     window.location.replace(window.location.origin + root + "/#" + target);
@@ -35,8 +35,8 @@ $(document).ready(function() {
   //  Tabloids
   function change_tabloid(target){
     // Production vs. Local
-    // var root = "/tps";
-    root = ""
+    var root = "/tps";
+    // root = ""
 
     hideTabloids();
     $("#tabloid-container").load(root + "/html/tabloids/" + target + ".html");
