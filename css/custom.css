@@ -23,6 +23,9 @@ body {
   padding: 20px;
 }
 
+/* ------ */
+/* Navbar */
+/* ------ */
 #anit-navbar {
   background-color: #4a4a4a;
   padding: 10px;
@@ -30,13 +33,52 @@ body {
   float: left;
   display: block;
   width: 100%;
+  text-align: center;
 }
 
-#anit-navbar > span {
-  margin-left: 5px;
-  margin-right: 5px;
+#anit-navbar a {
+  font-size: 1.2em;
+  margin: 10px;
+  color: white;
+  text-decoration: none;
 }
 
+#anit-navbar .copyright {
+  font-size: .75em;
+  color: #9D9D9D;
+}
+a#navbar-about:hover {
+  color: #E2C46F;
+}
+
+a#navbar-team:hover {
+  color: #a9c2c0;
+}
+
+a#navbar-tilt:hover {
+  color: #d18b6b;
+}
+
+a#navbar-scihive:hover {
+  color: #bdca3a;
+}
+
+a#navbar-archive:hover {
+  color: #faa22c;
+}
+
+a#navbar-sys:hover {
+  color: #a9c2c0;
+}
+
+a#navbar-beeclub:hover {
+  color: #ebc477;
+}
+
+
+/* ---------------- */
+/* Major Containers */
+/* ---------------- */
 #hexagon-column {
   margin: 0px;
   padding: 0px;
@@ -324,9 +366,10 @@ div[class^="content beeclub"]{
   width: 350px;
   color: white;
   font-size: 2em;
-  background-color: none;
+  background-color: transparent;
   text-transform: uppercase;
   text-align: center;
+  margin: 10px;
 }
 
 .join-button:hover{

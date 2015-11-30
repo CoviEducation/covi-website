@@ -77,19 +77,19 @@
 /* Borders */
 /* ------- */
 .dashed-gray-border-top {
-  border-top: 3pt lightgray dashed;
+  border-top: 3pt #2D2D2D dashed;
 }
 
 .dashed-gray-border-bottom {
-  border-bottom: 3pt lightgray dashed;
+  border-bottom: 3pt #2D2D2D dashed;
 }
 
 .dashed-gray-border-left {
-  border-left: 3pt lightgray dashed;
+  border-left: 3pt #2D2D2D dashed;
 }
 
 .dashed-gray-border-right {
-  border-right: 3pt lightgray dashed;
+  border-right: 3pt #2D2D2D dashed;
 }
 
 .dashed-green-border-left {
@@ -97,7 +97,7 @@
 }
 
 .dashed-blue-border-left {
-  border-left: 3pt teal dashed;
+  border-left: 3pt #AECDBB dashed;
 }
 
 .touching-title {
@@ -143,6 +143,13 @@
   font-weight: 800;
   float: left;
   margin: 5px;
+}
+
+#mission-tabloid-quick-look{
+  font-size: 2em;
+  font-weight: 600;
+  color: gray;
+  margin-bottom: 30px;
 }
 
 /* Mission Statement Pt 2 */

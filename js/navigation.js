@@ -24,23 +24,24 @@ $(document).ready(function() {
   function change_page(target){
     if (!isValidPage(target)) { target = "home"; }
 
-    // // Production
-    // window.location.replace(window.location.origin + "/tps/#" + target);
-    // $("#content_column").load("/tps/html/contents/" + target + ".html");
-
-    // Local
     window.location.replace(window.location.origin + "/#" + target);
     $("#content-column").load("/html/contents/" + target + ".html");
-    $("#tabloid-container").load("/html/tabloids/" + 'home' + ".html");
-    $("#jointheeffort-container").load("/html/tabloids/jointheeffort.html");
+    // $("#tabloid-container").load("/html/tabloids/" + 'home' + ".html");
+    // $("#jointheeffort-container").load("/html/tabloids/jointheeffort.html");
+  }
+
+  change_tabloid = function(target){
+    hideTabloids();
+    $("#tabloid-container").load("/html/tabloids/" + target + ".html");
   }
 
   // Tabloid Reveal/Scrollto
-  $('button').click( function(data){
+  $('.tabloid-button').click( function(data){
     console.log("HEYYYO LMAo");
+    change_tabloid( this.attributes["data-target"].value );
   });
 
   hideTabloids = function(){
-    $(".tabloid").addClass("hidden");
+    $("#tabloid-container").load("");
   }
 });
