@@ -25,23 +25,26 @@ $(document).ready(function() {
     if (!isValidPage(target)) { target = "home"; }
 
     window.location.replace(window.location.origin + "/#" + target);
+    hideTabloids();
     $("#content-column").load("/html/contents/" + target + ".html");
-    // $("#tabloid-container").load("/html/tabloids/" + 'home' + ".html");
-    // $("#jointheeffort-container").load("/html/tabloids/jointheeffort.html");
+
   }
 
   change_tabloid = function(target){
     hideTabloids();
     $("#tabloid-container").load("/html/tabloids/" + target + ".html");
+    $("#tabloid-container").removeClass("hidden");
   }
 
   // Tabloid Reveal/Scrollto
-  $('.tabloid-button').click( function(data){
+  $('#content-column').click( function(data){
     console.log("HEYYYO LMAo");
-    change_tabloid( this.attributes["data-target"].value );
+    if (data.toElement.className == "tabloid-button"){
+      change_tabloid(data.toElement.dataset.target);
+    }
   });
 
-  hideTabloids = function(){
-    $("#tabloid-container").load("");
+  function hideTabloids(){
+    $("#tabloid-container").addClass("hidden");
   }
 });

@@ -128,7 +128,7 @@ a#navbar-beeclub:hover {
 }
 
 .content-tabloid-button {
-  text-align: right;
+  text-align: center;
   padding: 15px;
 }
 
@@ -354,6 +354,7 @@ div[class^="content beeclub"]{
   background-color: transparent;
   text-transform: uppercase;
   text-align: center;
+  margin: 5px;
 }
 
 .tabloid-button:hover{
