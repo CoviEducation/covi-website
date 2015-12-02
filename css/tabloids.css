@@ -37,10 +37,25 @@
   color: #AECDBB;
 }
 
+.color-pale-turquoise {
+  color: #80CDC2;
+}
+
 .color-pale-green {
   color: #AFC179;
 }
 
+.color-pale-pink {
+  color: #D3B1A7;
+}
+
+.color-pale-red {
+  color: #EF9E7E;
+}
+
+.color-vibrant-orange {
+  color: #FAA32C;
+}
 
 .inline-block {
   display: inline-block;
@@ -220,9 +235,8 @@
   padding: 20px;
 }
 
-#mission-tabloid-engine .image img {
-  width: 100%;
-  max-width: 300px;
+img.tabloid-home-engine {
+  width: 75%;
 }
 
 .mission-separator {

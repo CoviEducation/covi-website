@@ -59,12 +59,9 @@ $(document).ready(function() {
     hideTabloids();
     $("#jointheeffort-container").load(root + "html/tabloids/jointheeffort.html");
     $("#jointheeffort-container").removeClass("hidden");
-    scrollto_jointheeffort();
-  }
-
-  function scrollto_jointheeffort(){
     $('html, body').animate({ scrollTop: $("#jointheeffort-container").offset().top }, 2000);
   }
+
 
   $('.join-button').click( function(data){
     load_jointheeffort();

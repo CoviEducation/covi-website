@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 300 196.153" style="enable-background:new 0 0 300 196.153;" xml:space="preserve">
+	 viewBox="-324 181 310 199" style="enable-background:new -324 181 310 199;" xml:space="preserve">
 <font horiz-adv-x="1000">
 <!-- Copyright (c) 2013 by Joan Alegret. All rights reserved. -->
 <!-- Copyright: Copyright 2015 Adobe System Incorporated. All rights reserved. -->
@@ -1216,36 +1216,38 @@
 <glyph unicode="&#xFE48;" horiz-adv-x="250" d="M515,52l0,93l-780,0l0,-93l-54,0l0,158l888,0l0,-158z"/>
 </font>
 
-	<radialGradient id="SVGID_1_" cx="102.8269" cy="98.8692" r="84.0079" gradientUnits="userSpaceOnUse">
+	<radialGradient id="SVGID_1_" cx="-216.173" cy="277.716" r="84.0083" gradientTransform="matrix(1 0 0 1 0 2)" gradientUnits="userSpaceOnUse">
 	<stop  offset="0" style="stop-color:#C9D09F"/>
 	<stop  offset="0.3874" style="stop-color:#E1E5CB"/>
 	<stop  offset="0.8148" style="stop-color:#FFFFFF"/>
 </radialGradient>
-<ellipse style="fill:url(#SVGID_1_);stroke:#4F4F4F;stroke-miterlimit:10;" cx="102.827" cy="98.869" rx="85.148" ry="82.853"/>
-<line style="fill:none;stroke:#4F4F4F;stroke-miterlimit:10;stroke-dasharray:6;" x1="102.827" y1="4.16" x2="102.827" y2="196.153"/>
-<line style="fill:none;stroke:#4F4F4F;stroke-miterlimit:10;stroke-dasharray:6;" x1="169.361" y1="31.35" x2="33.783" y2="167.29"/>
-<line style="fill:none;stroke:#4F4F4F;stroke-miterlimit:10;stroke-dasharray:6;" x1="38.487" y1="29.734" x2="170.304" y2="169.324"/>
-<line style="fill:none;stroke:#4F4F4F;stroke-miterlimit:10;stroke-dasharray:6;" x1="197.15" y1="97.937" x2="5.158" y2="98.193"/>
+<ellipse style="fill:url(#SVGID_1_);stroke:#4F4F4F;stroke-miterlimit:10;" cx="-216.173" cy="279.716" rx="85.148" ry="82.853"/>
+<line style="fill:none;stroke:#4F4F4F;stroke-miterlimit:10;stroke-dasharray:6;" x1="-216.173" y1="185.007" x2="-216.173" y2="377"/>
+<line style="fill:none;stroke:#4F4F4F;stroke-miterlimit:10;stroke-dasharray:6;" x1="-149.639" y1="212.197" x2="-285.217" y2="348.137"/>
+<line style="fill:none;stroke:#4F4F4F;stroke-miterlimit:10;stroke-dasharray:6;" x1="-280.513" y1="210.581" x2="-148.696" y2="350.171"/>
+<line style="fill:none;stroke:#4F4F4F;stroke-miterlimit:10;stroke-dasharray:6;" x1="-121.85" y1="278.784" x2="-313.842" y2="279.04"/>
 <g>
-	<text transform="matrix(1 0 0 1 247.5818 46.2454)"><tspan x="0" y="0" style="fill:#4F4F4F; font-family:'Muro-Regular'; font-size:8.7306px;">high quality</tspan><tspan x="0" y="10.477" style="fill:#4F4F4F; font-family:'Muro-Regular'; font-size:8.7306px;">information</tspan></text>
+	<text transform="matrix(1 0 0 1 -71.4182 227.0924)" style="fill:#4F4F4F; font-family:'Muro-Regular'; font-size:8.7306px;">high quality</text>
+	<text transform="matrix(1 0 0 1 -71.4182 237.5694)" style="fill:#4F4F4F; font-family:'Muro-Regular'; font-size:8.7306px;">information</text>
 </g>
-<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="210.0394" y1="26.1647" x2="268.8526" y2="26.1647">
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-108.961" y1="205.011" x2="-50.147" y2="205.011" gradientTransform="matrix(1 0 0 1 0 2)">
 	<stop  offset="0.2736" style="stop-color:#FFFFFF"/>
 	<stop  offset="1" style="stop-color:#C9D09F"/>
 </linearGradient>
-<path style="fill:url(#SVGID_2_);stroke:#4F4F4F;stroke-miterlimit:10;" d="M261.612,33.679H217.28
+<path style="fill:url(#SVGID_2_);stroke:#4F4F4F;stroke-miterlimit:10;" d="M-57.388,214.526h-44.332
 	c-3.999,0-7.241-3.242-7.241-7.241v-0.548c0-3.999,3.242-7.241,7.241-7.241h44.332c3.999,0,7.241,3.242,7.241,7.241v0.548
-	C268.853,30.438,265.611,33.679,261.612,33.679z"/>
+	C-50.147,211.285-53.389,214.526-57.388,214.526z"/>
 <g>
-	<text transform="matrix(1 0 0 1 189.0867 46.2454)"><tspan x="0" y="0" style="fill:#4F4F4F; font-family:'Muro-Regular'; font-size:8.7306px;">low quality</tspan><tspan x="0" y="10.477" style="fill:#4F4F4F; font-family:'Muro-Regular'; font-size:8.7306px;">information</tspan></text>
+	<text transform="matrix(1 0 0 1 -129.9133 227.0924)" style="fill:#4F4F4F; font-family:'Muro-Regular'; font-size:8.7306px;">low quality</text>
+	<text transform="matrix(1 0 0 1 -129.9133 237.5694)" style="fill:#4F4F4F; font-family:'Muro-Regular'; font-size:8.7306px;">information</text>
 </g>
-<text transform="matrix(0.4181 0.9084 -0.9084 0.4181 105.8978 116.0783)" style="fill:#333333; font-family:'AvenirNextCondensed-Regular'; font-size:10px;">CONVENTIONS</text>
-<text transform="matrix(0.9431 -0.3324 0.3324 0.9431 33.8595 128.3636)" style="fill:#333333; font-family:'AvenirNextCondensed-Regular'; font-size:10px;">ENTERTAINMENT</text>
-<text transform="matrix(0.9143 0.405 -0.405 0.9143 115.4064 108.1207)" style="fill:#333333; font-family:'AvenirNextCondensed-Regular'; font-size:10px;">SOCIAL NETWORKS</text>
-<text transform="matrix(0.478 -0.8784 0.8784 0.478 112.9063 84.6271)" style="fill:#333333; font-family:'AvenirNextCondensed-Regular'; font-size:10px;">FAMOUS FIGURES</text>
-<text transform="matrix(0.4258 -0.9048 0.9048 0.4258 75.9477 165.0936)" style="fill:#333333; font-family:'AvenirNextCondensed-Regular'; font-size:10px;">NEWS &amp; MEDIA</text>
-<text transform="matrix(0.8694 0.4942 -0.4942 0.8694 48.3813 73.7568)" style="fill:#333333; font-family:'AvenirNextCondensed-Regular'; font-size:10px;">IDEOLOGIES</text>
-<text transform="matrix(0.9669 -0.2552 0.2552 0.9669 119.8996 94.9743)" style="fill:#333333; font-family:'AvenirNextCondensed-Regular'; font-size:10px;">HISTORY</text>
-<text transform="matrix(0.3692 0.9294 -0.9294 0.3692 73.3672 31.8399)" style="fill:#333333; font-family:'AvenirNextCondensed-Regular'; font-size:10px;">ENVIRONMENT</text>
-<text transform="matrix(0.3143 0.9493 -0.9493 0.3143 82.5493 29.0508)" style="fill:#333333; font-family:'AvenirNextCondensed-Regular'; font-size:8px;">BUILT </text>
+<text transform="matrix(0.4181 0.9084 -0.9084 0.4181 -213.102 296.9252)" style="fill:#333333; font-family:'AvenirNextCondensed-Regular'; font-size:10px;">CONVENTIONS</text>
+<text transform="matrix(0.9431 -0.3324 0.3324 0.9431 -285.1407 309.2116)" style="fill:#333333; font-family:'AvenirNextCondensed-Regular'; font-size:9.9992px;">ENTERTAINMENT</text>
+<text transform="matrix(0.9143 0.405 -0.405 0.9143 -203.5934 288.9675)" style="fill:#333333; font-family:'AvenirNextCondensed-Regular'; font-size:10px;">SOCIAL NETWORKS</text>
+<text transform="matrix(0.478 -0.8784 0.8784 0.478 -206.0934 265.4741)" style="fill:#333333; font-family:'AvenirNextCondensed-Regular'; font-size:10.0008px;">FAMOUS FIGURES</text>
+<text transform="matrix(0.4258 -0.9048 0.9048 0.4258 -243.0522 345.9398)" style="fill:#333333; font-family:'AvenirNextCondensed-Regular'; font-size:10px;">NEWS &amp; MEDIA</text>
+<text transform="matrix(0.8694 0.4942 -0.4942 0.8694 -270.6188 254.605)" style="fill:#333333; font-family:'AvenirNextCondensed-Regular'; font-size:10.001px;">IDEOLOGIES</text>
+<text transform="matrix(0.9669 -0.2552 0.2552 0.9669 -199.1004 275.8213)" style="fill:#333333; font-family:'AvenirNextCondensed-Regular'; font-size:10px;">HISTORY</text>
+<text transform="matrix(0.3692 0.9294 -0.9294 0.3692 -245.6315 212.6854)" style="fill:#333333; font-family:'AvenirNextCondensed-Regular'; font-size:10.001px;">ENVIRONMENT</text>
+<text transform="matrix(0.3143 0.9493 -0.9493 0.3143 -236.4502 209.8979)" style="fill:#333333; font-family:'AvenirNextCondensed-Regular'; font-size:8px;">BUILT </text>
 </svg>
