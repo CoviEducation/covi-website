@@ -92,3 +92,14 @@
   font-size: 1.75em;
   color: #FAA32C;
 }
+
+.donate-button {
+  margin: 5px;
+  text-align: center;
+  padding: 10px;
+  background-color: #AFC179;
+}
+
+.donate-button a {
+  color: white;
+}

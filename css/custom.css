@@ -25,6 +25,10 @@ body {
   display: inline-block;
 }
 
+.break-word {
+  word-wrap: break-word;
+}
+
 /* ------ */
 /* Navbar */
 /* ------ */
