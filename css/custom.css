@@ -253,6 +253,40 @@ div[class^="content beeclub"]{
   background-color: #EBC478;
 }
 
+
+/* Social hover*/
+div[class^="content home"] .circle:hover{
+  background-color: #5C5A59;
+}
+
+div[class^="content about"] .circle:hover{
+  background-color: #232323;
+}
+
+div[class^="content team"] .circle:hover{
+  background-color: #2D2D2D;
+}
+
+div[class^="content tilt"] .circle:hover{
+  background-color: #560500;
+}
+
+div[class^="content archive"] .circle:hover{
+  background-color: #943C00;
+}
+
+div[class^="content scihive"] .circle:hover{
+  background-color: #576400;
+}
+
+div[class^="content shareyourscience"] .circle:hover{
+  background-color: #435D5A;
+}
+
+div[class^="content beeclub"] .circle:hover{
+  background-color: #855E12;
+}
+
 /* --------------------------- */
 /* Social Media Button Styling */
 /* --------------------------- */
