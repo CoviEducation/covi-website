@@ -190,7 +190,6 @@ a#navbar-beeclub:hover {
 }
 
 .heading-tagline {
-  font-weight: 600;
   text-transform: uppercase;
   font-size: .6em;
   line-height: 1.2em;
@@ -470,4 +469,26 @@ div[class^="content beeclub"] .circle:hover{
 
 .team .bio{
   font-size: 1em;
+}
+
+/* ----- */
+/* Fonts */
+/* ----- */
+
+@font-face {
+  font-family: muro;
+  src: url('../assets/fonts/muro.otf');
+}
+
+@font-face {
+  font-family: nordica;
+  src: url('../assets/fonts/nordica.otf');
+}
+
+.muro {
+  font-family: muro;
+}
+
+.nordica {
+  font-family: nordica;
 }
