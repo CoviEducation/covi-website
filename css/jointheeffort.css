@@ -1,6 +1,7 @@
 .jointheeffort-gray-section {
   background-color: #C4C4C2;
   padding: 15px;
+  margin-bottom: 25px;
 }
 
 #jointheeffort-getinvolved-section {
@@ -17,14 +18,12 @@
 
 #jointheeffort-section .gray-1 {
   color: white;
-  font-weight: 200;
   font-size: 3em;
   margin: 10px 0px;
 }
 
 #jointheeffort-section .gray-3 {
   color: white;
-  font-weight: 600;
   font-size: 2em;
   margin: 10px 0px;
 }
@@ -44,14 +43,13 @@
 }
 
 #jointheeffort-getinvolved-section .header {
-  font-weight: 800;
-  font-size: 1.75em;
+  font-size: 2.25em;
 }
 
 #jointheeffort-getinvolved-section .header2 {
-  font-size: 1.25em;
-  font-weight: 400;
-  padding: 5px 0px;
+  font-size: 1.5em;
+  padding: 0px;
+  margin: 0px;
 }
 
 #jointheeffort-getinvolved-section .row {
