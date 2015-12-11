@@ -165,26 +165,28 @@ a#navbar-beeclub:hover {
 /* ---------------- */
 /* Content Headings */
 /* ---------------- */
-.content-heading {
-  font-size: 2.75em;
-  margin: 5px 10px 0px 10px;
+.content-heading .heading-main{
+  font-size: 3em;
+  font-stretch: condensed;
+  margin: 10px;
+  line-height: 1.25em;
 }
 
 .content-copy {
-  font-size: 12px;
+
 }
+
 .content-copy p {
-  margin: 0px;
-  margin-bottom: 15px;
+
 }
 
 .content-copy h5 {
-  margin: 0px;
-  margin-bottom: 2px;
+
 }
 
+
+
 .heading-main {
-  font-weight: 100;
   font-size: 1.6em;
   display: inline-block;
 }
@@ -486,9 +488,9 @@ div[class^="content beeclub"] .circle:hover{
 }
 
 .muro {
-  font-family: muro;
+  font-family: muro, "helvetica", "verdana", sans-serif;
 }
 
 .nordica {
-  font-family: nordica;
+  font-family: nordica, "helvetica-neue", "georgia", serif;
 }
