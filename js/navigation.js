@@ -31,6 +31,7 @@ $(document).ready(function() {
     hideTabloids();
     $("#content-column").load(root + "/html/contents/" + target + ".html");
     $('html, body').animate({ scrollTop: $("#content-column").offset().top }, 300);
+    change_tabloid("jointheeffort");
   }
 
   //  Tabloids

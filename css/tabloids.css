@@ -125,7 +125,6 @@
 /* ------------ */
 
 .mission-blurb-text {
-  font-weight: 200;
   font-size: 1.2em;
 }
 
@@ -140,14 +139,12 @@
   font-size: 10em;
   line-height: 1em;
   float: left;
-  font-weight: 900;
   margin: 5px;
 }
 
 #mission-tabloid-bigwords-part2 {
   font-size: 4em;
   line-height: 1em;
-  font-weight: 800;
   float: left;
   margin: 5px;
 }
@@ -155,16 +152,8 @@
 #mission-tabloid-bigwords-part3 {
   font-size: 2.5em;
   line-height: 1em;
-  font-weight: 800;
   float: left;
   margin: 5px;
-}
-
-#mission-tabloid-quick-look{
-  font-size: 2em;
-  font-weight: 600;
-  color: gray;
-  margin-bottom: 30px;
 }
 
 /* Mission Statement Pt 2 */
@@ -183,28 +172,24 @@
 
 #mission-tabloid-statement-pt2 .pt1 {
   font-size: 3.5vw;
-  font-weight: 600;
   line-height: 1.25em;
   margin: 10px;
 }
 
 #mission-tabloid-statement-pt2 .pt2 {
   font-size: 2.75vw;
-  font-weight: 600;
   line-height: 1.25em;
   margin: 10px;
 }
 
 #mission-tabloid-statement-pt2 .pt3 {
   font-size: 10vw;
-  font-weight: 800;
   line-height: 1.25em;
   margin: 10px;
 }
 
 #mission-tabloid-statement-pt2 .pt4 {
   font-size: 7.5vw;
-  font-weight: 800;
   line-height: 1em;
   margin: 10px;
 }
@@ -222,8 +207,7 @@
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 20px;
-  font-size: 1.8em;
-  font-weight: 900;
+  font-size: 2.5em;
   margin: 30px 0px;
 }
 
@@ -254,9 +238,8 @@ img.tabloid-home-engine {
 /* Dual-Color Headers */
 /* ------------------ */
 .mission-tabloid-dual-header {
-  font-weight: 900;
   line-height: 1em;
-  font-size: 4em;
+  font-size: 4.5em;
   margin: 20px 0px;
 }
 
@@ -278,6 +261,12 @@ img.tabloid-home-engine {
   border-left: 1px black dashed;
 }
 
+.mission-projects-blurb h4 {
+  font-size: 2em;
+  margin: 0px;
+  padding: 0px;
+}
+
 .mission-projects-hexagon {
   padding: 10px;
   text-align: center;
@@ -291,8 +280,25 @@ img.tabloid-home-engine {
 /* ---------- */
 /* Philosophy */
 /* ---------- */
+#mission-tabloid-quick-look {
+  font-size: 2.25em;
+  color: lightgray;
+  padding-bottom: 15px;
+}
+
+.mission-philosophy-item {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
 .mission-philosophy-item .picture {
   padding: 20px;
+}
+
+.mission-philosophy-item h4 {
+  font-size: 1.75em;
+  margin: 0px;
+  padding: 0px;
 }
 
 .mission-philosophy-item .picture img {
@@ -355,13 +361,11 @@ img.tabloid-home-engine {
 }
 
 .mission-identity-column .header > .heavy {
-  font-weight: 400;
   color: #2D2D2D;
   display: inline-block;
 }
 
 .mission-identity-column .header > .light {
-  font-weight: 100;
   color: gray;
   display: inline-block;
 }
@@ -397,7 +401,6 @@ img.tabloid-home-engine {
 /* C, D, E */
 /* ------- */
 .mission-cde-header {
-  font-weight: 100;
   font-size: 48pt;
   padding: 35px 20px;
   margin-bottom: 30px;
@@ -427,4 +430,10 @@ img.tabloid-home-engine {
 .mission-cde-fullwidth-image img {
   width: 100%;
   max-width: 800px;
+}
+
+.mission-h5 {
+  margin: 0px;
+  padding: 10px 0px 5px 0px;
+  font-size: 1.25em;
 }
