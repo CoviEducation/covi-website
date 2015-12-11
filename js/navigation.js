@@ -30,6 +30,7 @@ $(document).ready(function() {
     window.location.replace(window.location.origin + root + "/#" + target);
     hideTabloids();
     $("#content-column").load(root + "/html/contents/" + target + ".html");
+    $('html, body').animate({ scrollTop: $("#content-column").offset().top }, 300);
   }
 
   //  Tabloids
@@ -51,7 +52,7 @@ $(document).ready(function() {
   });
 
   $('.join-button').click( function(data){
-    change_tabloid('jointheeffort');
+    change_tabloid(data.toElement.dataset.target);
   });
 
   function hideTabloids(){

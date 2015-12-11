@@ -21,6 +21,16 @@ body {
 #tps-logo {
   margin: 0px;
   padding: 20px;
+  float: left;
+  display: inline-block;
+}
+
+.break-word {
+  word-wrap: break-word;
+}
+
+.clear {
+  clear: both;
 }
 
 /* ------ */
@@ -84,10 +94,9 @@ a#navbar-beeclub:hover {
   padding: 0px;
   float: left;
   display: inline-block;
-  /* border: 1px solid black; */
 }
 
-#tabloid-container {
+#tabloid-container, #jointheeffort-container {
   margin: 0px;
   padding: 0px;
   float: left;
@@ -160,42 +169,60 @@ a#navbar-beeclub:hover {
 /* ---------------- */
 /* Content Headings */
 /* ---------------- */
-.content-heading {
-  font-size: 2.75em;
-  margin: 5px 10px 0px 10px;
+.content-heading .heading-main{
+  font-size: 4.25em;
+  font-stretch: condensed;
+  padding: 5px 10px 5px 10px;
+  line-height: 1.1em;
+  display: inline-block;
+  word-break: break-word;
+  float: left;
 }
 
-.content-copy {
-  font-size: 12px;
-}
 .content-copy p {
   margin: 0px;
+  padding: 0px;
+  font-size: .95em;
+  line-height: 1.3em;
   margin-bottom: 15px;
 }
 
+.content-copy h4 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  margin-bottom: 3px;
+}
 .content-copy h5 {
   margin: 0px;
-  margin-bottom: 2px;
-}
-
-.heading-main {
-  font-weight: 100;
-  font-size: 1.6em;
-  display: inline-block;
+  padding: 0px;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  margin-bottom: 5px;
 }
 
 .heading-tagline {
-  font-weight: 600;
   text-transform: uppercase;
-  font-size: .6em;
-  line-height: 1.2em;
-  margin-left: 5px;
+  font-size: 1.75em;
+  line-height: 1em;
+  padding: 5px 5px 0px 5px;
   display: inline-block;
+  word-break: break-word;
 }
 
 .heading-bee {
   font-weight: 100;
   margin: 0px;
+  padding: 0px;
+}
+
+#heading-sys {
+  font-size: 3em;
+}
+
+#heading-sys span {
+  margin-left: -2px;
   padding: 0px;
 }
 
@@ -205,12 +232,13 @@ a#navbar-beeclub:hover {
   padding: 0px;
 }
 
-.tagline-tilt {
-  width: 380px;
+#content-archive-heading {
+  font-size: 3.75em;
 }
 
-.tagline-archive {
-  font-size: 14pt;
+#content-archive-tagline {
+  font-size: 1.5em;
+  padding: 5px 15px 10px 15px;
 }
 
 /* --------------------- */
@@ -246,6 +274,40 @@ div[class^="content shareyourscience"]{
 
 div[class^="content beeclub"]{
   background-color: #EBC478;
+}
+
+
+/* Social hover*/
+div[class^="content home"] .circle:hover{
+  background-color: #5C5A59;
+}
+
+div[class^="content about"] .circle:hover{
+  background-color: #232323;
+}
+
+div[class^="content team"] .circle:hover{
+  background-color: #2D2D2D;
+}
+
+div[class^="content tilt"] .circle:hover{
+  background-color: #560500;
+}
+
+div[class^="content archive"] .circle:hover{
+  background-color: #943C00;
+}
+
+div[class^="content scihive"] .circle:hover{
+  background-color: #576400;
+}
+
+div[class^="content shareyourscience"] .circle:hover{
+  background-color: #435D5A;
+}
+
+div[class^="content beeclub"] .circle:hover{
+  background-color: #855E12;
 }
 
 /* --------------------------- */
@@ -431,4 +493,26 @@ div[class^="content beeclub"]{
 
 .team .bio{
   font-size: 1em;
+}
+
+/* ----- */
+/* Fonts */
+/* ----- */
+
+@font-face {
+  font-family: muro;
+  src: url('../assets/fonts/muro.otf');
+}
+
+@font-face {
+  font-family: nordica;
+  src: url('../assets/fonts/nordica.otf');
+}
+
+.muro {
+  font-family: muro, "helvetica", "verdana", sans-serif;
+}
+
+.nordica {
+  font-family: nordica, "helvetica-neue", "georgia", serif;
 }
