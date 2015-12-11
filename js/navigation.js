@@ -51,24 +51,11 @@ $(document).ready(function() {
     }
   });
 
-  function load_jointheeffort(){
-    // Production vs. Local
-    // var root = "/tps";
-    root = ""
-
-    hideTabloids();
-    $("#jointheeffort-container").load(root + "html/tabloids/jointheeffort.html");
-    $("#jointheeffort-container").removeClass("hidden");
-    $('html, body').animate({ scrollTop: $("#jointheeffort-container").offset().top }, 2000);
-  }
-
-
   $('.join-button').click( function(data){
-    load_jointheeffort();
+    change_tabloid(data.toElement.dataset.target);
   });
 
   function hideTabloids(){
     $("#tabloid-container").addClass("hidden");
-    $("#jointheeffort-container").addClass("hidden");
   }
 });
