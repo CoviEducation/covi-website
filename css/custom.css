@@ -172,16 +172,20 @@ a#navbar-beeclub:hover {
   line-height: 1.25em;
 }
 
-.content-copy {
-
-}
-
 .content-copy p {
-
+  margin: 0px;
+  padding: 0px;
+  font-size: .95em;
+  line-height: 1.3em;
+  margin-bottom: 12px;
 }
 
 .content-copy h5 {
-
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  margin-bottom: 3px;
 }
 
 

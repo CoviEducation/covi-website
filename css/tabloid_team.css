@@ -15,18 +15,30 @@
 #tabloid_team h3 {
   margin: 0px;
   padding: 0px;
+  font-size: 2em;
+  margin-bottom: -3px;
 }
 
 #tabloid_team h4 {
   margin: 0px;
   padding: 0px;
-  padding-bottom: 5px;
+  padding-bottom: 7px;
+  font-size: 1.25em;
 }
 
 #tabloid_team h5 {
   margin: 0px;
   padding: 0px;
-  padding-bottom: 15px;
+  padding-bottom: 18px;
+  font-size: .95em;
+}
+
+#tabloid_team p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1em;
+  line-height: 1.45em;
+  margin-bottom: 12px;
 }
 
 #tabloid_team h6 {
@@ -40,11 +52,11 @@
 
 .team-tabloid-section-stripe {
   background-color: #CF9060;
-  color: #2D2D2D;
+  color: #9E6946;
   width: 100%;
-  padding: 15px;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  padding: 20px 20px 10px 20px;
+  margin: 40px 0px;
+  font-size: 3.5em;
 }
 
 /* ------------ */
@@ -54,11 +66,13 @@
   margin: 30px 0px;
 }
 
-.team-tabloid-origin {
+.team-tabloid-origin h2{
   color: #61BCAF;
+  font-size: 2.75em;
 }
 
 .team-tabloid-origin-content {
+  margin-top: -2px;
   background-color: #61BCAF;
   color: white;
   padding: 10px;
@@ -73,6 +87,7 @@
 
 .team-tabloid-advisors-picture {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .team-tabloid-advisors-blurb {
@@ -81,7 +96,7 @@
 }
 
 #team-tabloid-core .row {
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .team-tabloid-member {
@@ -92,6 +107,7 @@
 
 .core-team-profile-picture {
   text-align: center;
+  padding-bottom: 20px;
 }
 .core-team-profile-blurb {
   background-color: #E2E0CC;
