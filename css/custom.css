@@ -29,6 +29,10 @@ body {
   word-wrap: break-word;
 }
 
+.clear {
+  clear: both;
+}
+
 /* ------ */
 /* Navbar */
 /* ------ */
@@ -166,10 +170,13 @@ a#navbar-beeclub:hover {
 /* Content Headings */
 /* ---------------- */
 .content-heading .heading-main{
-  font-size: 3em;
+  font-size: 4.25em;
   font-stretch: condensed;
-  margin: 10px;
-  line-height: 1.25em;
+  padding: 5px 10px 5px 10px;
+  line-height: 1.1em;
+  display: inline-block;
+  word-break: break-word;
+  float: left;
 }
 
 .content-copy p {
@@ -180,30 +187,42 @@ a#navbar-beeclub:hover {
   margin-bottom: 15px;
 }
 
+.content-copy h4 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  margin-bottom: 3px;
+}
 .content-copy h5 {
   margin: 0px;
   padding: 0px;
   font-size: 1.1em;
   line-height: 1.3em;
-  margin-bottom: 3px;
-}
-
-.heading-main {
-  font-size: 1.6em;
-  display: inline-block;
+  margin-bottom: 5px;
 }
 
 .heading-tagline {
   text-transform: uppercase;
-  font-size: .6em;
-  line-height: 1.2em;
-  margin-left: 5px;
+  font-size: 1.75em;
+  line-height: 1em;
+  padding: 5px 5px 0px 5px;
   display: inline-block;
+  word-break: break-word;
 }
 
 .heading-bee {
   font-weight: 100;
   margin: 0px;
+  padding: 0px;
+}
+
+#heading-sys {
+  font-size: 3em;
+}
+
+#heading-sys span {
+  margin-left: -2px;
   padding: 0px;
 }
 
@@ -213,12 +232,13 @@ a#navbar-beeclub:hover {
   padding: 0px;
 }
 
-.tagline-tilt {
-  width: 380px;
+#content-archive-heading {
+  font-size: 3.75em;
 }
 
-.tagline-archive {
-  font-size: 14pt;
+#content-archive-tagline {
+  font-size: 1.5em;
+  padding: 5px 15px 10px 15px;
 }
 
 /* --------------------- */
