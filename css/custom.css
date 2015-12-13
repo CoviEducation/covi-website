@@ -21,8 +21,8 @@ body {
 #tps-logo {
   margin: 0px;
   padding: 20px;
-  float: left;
-  display: inline-block;
+  /*float: left;*/
+  /*display: inline-block;*/
 }
 
 .break-word {
@@ -92,11 +92,13 @@ a#navbar-beeclub:hover {
 #hexagon-column {
   margin: 0px;
   padding: 0px;
+  margin-right: 5%;
   float: left;
   display: inline-block;
+  position: relative;
 }
 
-#tabloid-container, #jointheeffort-container {
+#tabloid-container {
   margin: 0px;
   padding: 0px;
   float: left;

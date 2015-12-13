@@ -9,32 +9,39 @@ $(document).ready(function() {
     windowWidth = $(window).width();
     // console.log("Window Width:" + windowWidth);
 
+    var wideView = true;
     if (windowWidth < 610) {
       // console.log("Narrow view");
+      wideView = false;
       width = windowWidth;
     } else {
       // console.log("Wide view");
       width = windowWidth * .5;
     }
 
-    // width = width + 'px';
-
     // Resize hex and content columns
-    $("#hexagon-column").css('width',width).css('height',$(window).height());
+    height = $(window).height() - $("#tps-logo").height();
+    // console.log("WINDOW HEIGHT: " + $(window).height());
+    // console.log("TPS-LOGO HEIGHT: " + $("#tps-logo").height());
+
+    $("#hexagons").css('width',width).css('height',height);
     $("#content-column").css('width',width);
     // console.log("HexagonColumn (" + $("#hexagon-column").width() + ") & Content Column(" + $("#content-column").width() + ")" + "");
     // console.log("SUM WIDTH: " + ($("#hexagon-column").width() + $("#content-column").width()));
 
     // Resize Hexagons
-    hexSectionWidth = width * 0.9;
+    hexSectionWidth = width * 0.90;
     $("#hexagons").width(hexSectionWidth);
     hexWidth = 0.4 * hexSectionWidth;
     hexHeight = hexWidth * hexagonWidthToHeightRatio;
+    var modifier = .995;
+    hexWidth *= modifier;
+    hexHeight *= modifier
     $(".hexagon").width(hexWidth).height(hexHeight);
 
     // Reposition
     // Logo's Position
-    topRoot = 150; // $("#tps-logo").position().top + $("#tps-logo img").height() + 25 + .05*hexHeight;
+    topRoot = hexHeight * .4; //150; // $("#tps-logo").position().top + $("#tps-logo img").height() + 25 + .05*hexHeight;
     leftRoot = hexWidth * .9; // $("#tps-logo").position().left + $("#tps-logo img").width() + 25 + .05*hexWidth;
 
     // Horizontal
@@ -65,10 +72,8 @@ $(document).ready(function() {
   // Listen to window resizing
   $(window).resize(function(){
     transformHexagons();
-    resizePictureFrames($(".profile-picture-frame").width());
   });
 
   transformHexagons();
-  resizePictureFrames($(".profile-picture-frame").width());
 });
 
