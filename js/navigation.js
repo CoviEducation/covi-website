@@ -13,7 +13,7 @@ $(document).ready(function() {
 
   // Routing and Page Changing
   function router(){
-    change_page( $(location).attr('href').match(/#(\w*)/) );
+    change_page( $(location).attr('href').match(/#(\w*)/)[1] );
   }
 
   function isValidPage(target){
