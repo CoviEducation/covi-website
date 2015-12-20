@@ -12,8 +12,14 @@ $(document).ready(function() {
   });
 
   // Routing and Page Changing
-  function router(){
-    change_page( $(location).attr('href').match(/#(\w*)/)[1] );
+    function router(){
+    raw = $(location).attr('href').match(/#(\w*)/);
+    if (raw == null) {
+      match = "home";
+    } else {
+      match = $(location).attr('href').match(/#(\w*)/)[1];
+    }
+    change_page( match );
   }
 
   function isValidPage(target){
