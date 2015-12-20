@@ -82,6 +82,34 @@
   color: #FAA32C;
 }
 
+.jointheeffort-email a{
+  color: #FAA32C;
+}
+
+.jointheeffort-email a:hover{
+  color: #FAA32C;
+}
+
+.jointheeffort-social .twitter-circle:hover{
+  background-color: lightblue;
+}
+
+.jointheeffort-social .fb-circle:hover{
+  background-color: #4c67a1;
+}
+
+.jointheeffort-social .email-circle:hover{
+  background-color: #AECDBB;
+}
+
+.email-circle a {
+  color: white;
+}
+
+.email-circle a:hover{
+  color: white;
+}
+
 .donate-button {
   margin: 5px;
   text-align: center;

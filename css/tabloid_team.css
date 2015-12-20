@@ -115,6 +115,14 @@
   padding: 15px 10px 15px 10px;
 }
 
+a.team-links{
+  color: black;
+}
+
+a.team-links:hover{
+  color: black;
+}
+
 .team-tabloid-advisors-blurb {
   min-height: 200px;
   background-color: #A9C4B4;
