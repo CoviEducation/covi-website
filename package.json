@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Covi website",
   "main": "covi.js",
-  "dependencies": {
-    "express": "^4.15.4"
-  },
+  "dependencies": {},
   "devDependencies": {
     "broccoli": "^1.0.0",
     "broccoli-cli": "^1.0.0",
