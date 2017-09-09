@@ -4,14 +4,13 @@
   "description": "Covi website",
   "main": "covi.js",
   "dependencies": {
-    "express": "^4.15.4"
-  },
-  "devDependencies": {
+    "express": "^4.15.4",
     "broccoli": "^1.0.0",
     "broccoli-cli": "^1.0.0",
     "broccoli-merge-trees": "^2.0.0",
     "broccoli-sass": "^0.7.0"
   },
+  "devDependencies": {},
   "scripts": {
     "start": "node app.js",
     "watch": "broccoli serve",
