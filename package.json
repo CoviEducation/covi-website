@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Covi website",
   "main": "covi.js",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.15.4"
+  },
   "devDependencies": {
     "broccoli": "^1.0.0",
     "broccoli-cli": "^1.0.0",
@@ -11,9 +13,11 @@
     "broccoli-sass": "^0.7.0"
   },
   "scripts": {
-    "start": "broccoli serve",
+    "start": "node app.js",
+    "watch": "broccoli serve",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf dist && broccoli build dist"
+    "build": "rm -rf dist && broccoli build dist",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
