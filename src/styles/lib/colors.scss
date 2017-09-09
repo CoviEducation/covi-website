@@ -1,0 +1,5 @@
+@function get-color($color) {
+  @if $color == red {
+    @return #ff0000;
+  }
+}

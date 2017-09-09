@@ -1,0 +1,8 @@
+@import "lib/colors";
+
+$foo: 1px;
+
+.foo {
+  color: get-color(red);
+  width: $foo;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "covi-website",
+  "version": "1.0.0",
+  "description": "Covi website",
+  "main": "covi.js",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "broccoli": "^1.0.0",
+    "broccoli-cli": "^1.0.0",
+    "broccoli-merge-trees": "^2.0.0",
+    "broccoli-sass": "^0.7.0"
+  },
+  "scripts": {
+    "start": "broccoli serve",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && broccoli build dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoviEducation/covi-website.git"
+  },
+  "author": "Adam Miller <adam@pages.me>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/CoviEducation/covi-website/issues"
+  },
+  "homepage": "https://github.com/CoviEducation/covi-website#readme"
+}
