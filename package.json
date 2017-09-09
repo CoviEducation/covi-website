@@ -12,11 +12,11 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node app.js",
-    "watch": "broccoli serve",
+    "start": "broccoli serve",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf dist && broccoli build dist",
-    "postinstall": "npm run build"
+    "heroku-prebuild": "npm run build",
+    "heroku-serve": "node app.js"
   },
   "repository": {
     "type": "git",
