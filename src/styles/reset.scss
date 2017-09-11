@@ -1,0 +1,15 @@
+@import "./lib/normalize";
+
+@font-face {
+  font-family: muro;
+  src: url('../assets/fonts/muro.otf');
+}
+
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: get-color(silver1);
+}
+
+.u-grid-canvas {
+  @include grid-canvas();
+}

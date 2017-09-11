@@ -1,0 +1,108 @@
+.home {
+  min-height: calc(100vh - 78px);
+
+  @include breakpoint(baby-bear){
+    background-size: 100%;
+    background-position: top center;
+  }
+}
+
+.home__menu {
+  float: left;
+  width: 50%;
+  display: block;
+  position: relative;
+  background-image: url('/images/honeycomb.svg');
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 64px;
+  &:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+}
+
+.home__hex {
+  width: 39%;
+  opacity: 0;
+  position: absolute;
+  svg {
+    width: 100%;
+  }
+  span {
+    position: absolute;
+    top: calc(50% - 4px);
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+}
+
+.home__hex:hover, .home__hex:active {
+  opacity: 1;
+  transition: opacity .24s;
+}
+
+// Top
+.home__hex:nth-child(1) {
+  top: 0;
+  transform: translateX(-50%);
+  left: calc(50% + 1px);
+  color: get-color(teal2);
+}
+
+// Middle
+.home__hex:nth-child(2) {
+  top: calc(50.5%);
+  transform: translateY(-50%) translateX(-50%);
+  left: calc(50.3%);
+  color: get-color(red2);
+}
+
+// Bottom
+.home__hex:nth-child(3) {
+  bottom: -0.8%;
+  transform: translateX(-50%);
+  left: calc(50% + 1px);
+  color: get-color(teal3);
+}
+
+// Top Left
+.home__hex:nth-child(4) {
+  width: 37.5%;
+  top: 0.9%;
+  transform: translateY(50%) translateX(0%);
+  left: 1.7%;
+  color: get-color(gray2);
+}
+
+// Top Right
+.home__hex:nth-child(5) {
+  top: -0.5%;
+  transform: translateY(50%) translateX(0%);
+  right: .5%;
+  color: get-color(red3);
+}
+
+// Bottom Right
+.home__hex:nth-child(6) {
+  width: 37.9%;
+  bottom: -0.7%;
+  transform: translateY(-50%) translateX(0%);
+  right: 1.5%;
+  color: get-color(gray3);
+}
+
+// Bottom Left
+.home__hex:nth-child(7) {
+  bottom: -0.5%;
+  transform: translateY(-50%) translateX(0%);
+  left: .5%;
+  color: get-color(teal1);
+}

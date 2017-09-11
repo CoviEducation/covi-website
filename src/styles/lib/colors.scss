@@ -1,5 +1,18 @@
+$COLORS: (
+  silver1: #f7f4f2,
+  silver2: #eeeae6,
+  silver3: #cfc6bf,
+  gray1: #bbbab6,
+  gray2: #827f7b,
+  gray3: #615d58,
+  red1: #f5e2dc,
+  red2: #dda492,
+  red3: #c28976,
+  teal1: #a8c2c0,
+  teal2: #6a98a0,
+  teal3: #235b6d
+);
+
 @function get-color($color) {
-  @if $color == red {
-    @return #ff0000;
-  }
+  @return map-get($COLORS, $color);
 }

@@ -1,8 +1,5 @@
-@import "lib/colors";
+@import "core";
+@import "reset";
 
-$foo: 1px;
-
-.foo {
-  color: get-color(red);
-  width: $foo;
-}
+@import "sections/nav";
+@import "sections/home";

@@ -1,0 +1,34 @@
+.nav {
+  width: 100%;
+  background-color: get-color(silver1);
+  box-shadow: inset 0 -48px 0 0 get-color(silver2);
+  height: 78px;
+  display: block;
+}
+
+.nav__logo {
+  width: 152px;
+  margin: 18px 0;
+}
+
+.nav__menu {
+  list-style: none;
+  height: 32px;
+  background-color: white;
+  border: 1px solid get-color(gray3);
+  border-radius: 2px;
+  margin: 22px 0;
+  padding: 0;
+  width: calc(100% - 191px);
+  float: right;
+}
+
+.nav__menu-item a {
+  float: left;
+  width: calc( 100% / 6 );
+  line-height: 32px;
+  color: get-color(gray3);
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
