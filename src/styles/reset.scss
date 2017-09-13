@@ -8,8 +8,69 @@
 html {
   font-family: 'Source Sans Pro', sans-serif;
   background-color: get-color(silver1);
+  font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "muro", sans-serif;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 4.2rem;
+}
+
+h2 {
+  font-size: 3.8rem;
+}
+
+h3 {
+  font-size: 3.4rem;
+}
+
+h4 {
+  font-size: 3.0rem;
+}
+
+h5 {
+  font-size: 2.7rem;
+}
+
+h6 {
+  font-size: 2.0rem;
 }
 
 .u-grid-canvas {
   @include grid-canvas();
+}
+
+.u-grid-12 {
+  @include grid(12);
+}
+
+.t-center{
+  text-align: center;
+}
+
+@each $name, $value in $COLORS {
+  .t-#{$name} {
+    color: $value;
+  }
+  .bg-#{$name} {
+    background-color: $value;
+  }
+}
+
+.t-13dp {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
 }

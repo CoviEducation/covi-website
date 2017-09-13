@@ -41,6 +41,7 @@
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
+    font-size: 1.8rem;
   }
 }
 
@@ -105,4 +106,15 @@
   transform: translateY(-50%) translateX(0%);
   left: .5%;
   color: get-color(teal1);
+}
+
+.home__details {
+  width: calc(50% - 24px);
+  padding: 16px;
+  float: right;
+  margin-top: 64px;
+  margin-left: 18px;
+  max-height: calc(100vh - 36px - 164px);
+  overflow: auto;
+  box-shadow: 0 0 0 16px get-color(white);
 }
