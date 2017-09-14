@@ -60,6 +60,10 @@ h6 {
   @include grid(12);
 }
 
+.u-grid-last {
+  margin-left: 0;
+}
+
 .t-center{
   text-align: center;
 }
@@ -81,7 +85,40 @@ h6 {
   font-size: 1.3rem;
   letter-spacing: 1px;
 }
-
+.t-16dp {
+  font-size: 1.8rem;
+}
 .t-18dp {
   font-size: 1.8rem;
+}
+
+.t-24dp {
+  font-size: 2.4rem;
+}
+
+.t-42dp {
+  font-size: 4.2rem;
+}
+
+.t-156dp {
+  font-size: 15.6rem;
+  margin-bottom: -28px;
+}
+
+
+.vs-0dp {
+  margin-bottom: 0px;
+}
+.vs-8dp {
+  margin-bottom: 8px;
+}
+.vs-16dp {
+  margin-bottom: 16px;
+}
+.vs-32dp {
+  margin-bottom: 32px;
+}
+
+.t-sans {
+  font-family: 'Source Sans Pro', sans-serif;
 }
