@@ -17,6 +17,9 @@
   background-repeat: no-repeat;
   background-size: 100%;
   margin-top: 64px;
+  @include breakpoint(baby-bear) {
+    width: 100%;
+  }
   &:after {
     content: "";
     display: block;
@@ -120,6 +123,9 @@
   box-shadow: 0 0 0 16px get-color(white);
   display: none;
   position: relative;
+  @include breakpoint(baby-bear) {
+    width: 100%;
+  }
 }
 
 .home__details.visible {

@@ -95,9 +95,19 @@ h6 {
 .t-24dp {
   font-size: 2.4rem;
 }
-
+.t-32dp {
+  font-size: 3.2rem;
+}
 .t-42dp {
   font-size: 4.2rem;
+}
+
+.t-64dp {
+  font-size: 6.4rem;
+}
+
+.t-92dp {
+  font-size: 9.2rem;
 }
 
 .t-156dp {
@@ -105,6 +115,45 @@ h6 {
   margin-bottom: -28px;
 }
 
+.t-header {
+  text-align: center;
+  padding: 0 32px;
+  display: inline;
+  float: left;
+  clear: both;
+  width: auto;
+  margin: auto;
+  position: relative;
+  height: 73px;
+  font-size: 9.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: pre;
+  @include breakpoint(baby-bear) {
+    font-size: 7.2rem;
+  }
+  &:before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: get-color(silver1);
+  }
+  &:after {
+    content: "";
+    width: 100vw;
+    background-color: currentColor;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50vw);
+    top: 50%;
+    height: 2px;
+    z-index: -2;
+  }
+}
 
 .vs-0dp {
   margin-bottom: 0px;
@@ -115,10 +164,17 @@ h6 {
 .vs-16dp {
   margin-bottom: 16px;
 }
+.vs-24dp {
+  margin-bottom: 24px;
+}
 .vs-32dp {
   margin-bottom: 32px;
 }
 
 .t-sans {
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+.t-block {
+  font-family: 'muro', sans-serif;
 }
