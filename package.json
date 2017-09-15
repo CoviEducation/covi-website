@@ -16,7 +16,7 @@
     "start": "broccoli serve",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf dist && broccoli build dist",
-    "heroku-prebuild": "npm run build",
+    "heroku-prebuild": "npm install && npm run build",
     "heroku-serve": "node app.js"
   },
   "repository": {
