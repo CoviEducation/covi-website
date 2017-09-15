@@ -1,5 +1,5 @@
 .home {
-  min-height: calc(100vh - 78px);
+  min-height: calc(100vh - 78px - 90px - 64px);
 
   @include breakpoint(baby-bear){
     background-size: 100%;
