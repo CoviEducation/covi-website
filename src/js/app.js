@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  let active = document.getElementById(name);
+  var active = document.getElementById(name);
   function homeRoute(e){
     var name = window.location.hash.replace('#', '') || 'home';
     active && active.classList.remove('visible')
@@ -10,4 +10,13 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   window.addEventListener("hashchange", homeRoute, false);
   homeRoute();
+
+  var button = document.getElementById('menubutton');
+  var menu = document.getElementById('navmenu');
+
+  button.addEventListener('click', function(e){
+    button.classList.toggle('is-active');
+    menu.classList.toggle('visible');
+  })
+
 });

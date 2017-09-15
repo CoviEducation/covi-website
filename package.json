@@ -4,11 +4,12 @@
   "description": "Covi website",
   "main": "covi.js",
   "dependencies": {
-    "express": "^4.15.4",
     "broccoli": "^1.0.0",
+    "broccoli-autoprefixer": "^5.0.0",
     "broccoli-cli": "^1.0.0",
     "broccoli-merge-trees": "^2.0.0",
-    "broccoli-sass": "^0.7.0"
+    "broccoli-sass": "^0.7.0",
+    "express": "^4.15.4"
   },
   "devDependencies": {},
   "scripts": {

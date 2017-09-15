@@ -29,6 +29,18 @@
   line-height: 5px;
 }
 
+.nav__menubutton {
+  display: none;
+  position: absolute;
+  right: -8px;
+  top: -8px;
+  z-index: 999;
+
+  @include breakpoint(baby-bear) {
+    display: block;
+  }
+}
+
 .nav__menu {
   list-style: none;
   height: 34px;
@@ -39,6 +51,37 @@
   padding: 0;
   width: calc(100% - 191px);
   float: right;
+
+    @include breakpoint(baby-bear) {
+      width: 100vw;
+      height: calc(calc(100vh - 84px));
+      position: fixed;
+      top: 84px;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: white;
+      z-index: 999;
+      border: none;
+      visibility: hidden;
+      opacity: 0;
+      border-top: 2px solid get-color(gray1);
+      transition: opacity .24s, visibility .24s;
+
+      &.visible {
+        visibility: visible;
+        transition: opacity .24s, visibility 0s;
+        opacity: 1;
+      }
+
+      .nav__menu-item a {
+        width: 100%;
+        height: calc((100vh - 84px) / 6);
+        line-height: calc((100vh - 84px) / 6);
+        float: left;
+        text-align: center;
+      }
+    }
 }
 
 .nav__menu-item a {
@@ -50,4 +93,5 @@
   text-align: center;
   text-decoration: none;
   font-size: 1.6rem;
+  white-space: pre;
 }
