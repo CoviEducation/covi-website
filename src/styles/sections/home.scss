@@ -146,14 +146,22 @@
 
   &#information-literacy-projects {
     color: get-color(teal2);
+    a { background-color: get-color(teal2); }
   }
 
   &#self-bias-projects {
     color: get-color(red3);
+    a { background-color: get-color(red3); }
   }
 
-  &#diversity-projects {
-    color: get-color(red3);
+  &#equity-and-empowerment-projects {
+    color: get-color(teal1);
+    a { background-color: get-color(teal1); }
+  }
+
+  &#accessible-evidence-projects {
+    color: get-color(red2);
+    a { background-color: get-color(red2); }
   }
 
   p {
