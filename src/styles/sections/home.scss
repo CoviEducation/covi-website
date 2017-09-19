@@ -128,6 +128,9 @@
   position: relative;
   @include breakpoint(baby-bear) {
     width: 100%;
+    height: auto;
+    max-height: none;
+    margin-bottom: 42px;
   }
 }
 
@@ -203,6 +206,7 @@
     left: 50%;
     transform: translateX(-50%);
     bottom: 0;
+    white-space: pre;
   }
 
 }
