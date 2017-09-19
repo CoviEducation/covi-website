@@ -1,12 +1,19 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var active = document.getElementById(name);
+  var activePanel;
+  var activeProjects;
   function homeRoute(e){
     var name = window.location.hash.replace('#', '') || 'home';
-    active && active.classList.remove('visible')
-    active = document.getElementById(name+'-panel');
-    active && active.classList.add('visible');
+    activePanel && activePanel.classList.remove('visible')
+    activePanel = document.getElementById(name+'-panel');
+    activePanel && activePanel.classList.add('visible');
+
+    activeProjects && activeProjects.classList.remove('visible')
+    activeProjects = document.getElementById(name+'-projects');
+    activeProjects && activeProjects.classList.add('visible');
+
     e && e.preventDefault();
     e && e.stopPropagation();
+    document.body.scrollTop = 0;
   }
   window.addEventListener("hashchange", homeRoute, false);
   homeRoute();
