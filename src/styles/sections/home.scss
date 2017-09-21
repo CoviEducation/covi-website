@@ -136,6 +136,8 @@
 
 .home__projects {
   display: none;
+  clear: both;
+  border-top: 32px solid transparent;
 }
 
 .home__details.visible, .home__projects.visible {

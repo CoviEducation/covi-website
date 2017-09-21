@@ -80,6 +80,10 @@
         line-height: calc((100vh - 84px) / 6);
         float: left;
         text-align: center;
+
+        &.active {
+          background-color: transparent;
+        }
       }
     }
 }
@@ -94,4 +98,7 @@
   text-decoration: none;
   font-size: 1.6rem;
   white-space: pre;
+  &.active {
+    background-color: rgba(get-color(red1), .55);
+  }
 }
